@@ -7280,8 +7280,8 @@
     ]
   },
   "S673": {
-    "name": "Minion Life",
-    "stats": ["Minions have 10% increased maximum Life"]
+    "name": "Mana Regeneration",
+    "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S674": {
     "name": "Maximum Mana",
@@ -7316,8 +7316,8 @@
     "stats": []
   },
   "S681": {
-    "name": "BLUPA small",
-    "stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
+    "name": "Spell Damage",
+    "stats": ["8% increased Spell Damage"]
   },
   "S682": {
     "name": "Attribute",
@@ -7340,8 +7340,8 @@
     ]
   },
   "S686": {
-    "name": "Minion Life",
-    "stats": ["Minions have 10% increased maximum Life"]
+    "name": "Mana Regeneration",
+    "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S687": {
     "name": "BLUPA small",
@@ -7366,8 +7366,8 @@
     ]
   },
   "S692": {
-    "name": "BLUPA small",
-    "stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
+    "name": "Spell Damage",
+    "stats": ["8% increased Spell Damage"]
   },
   "S693": {
     "name": "Energy Shield Delay",
@@ -7442,8 +7442,8 @@
     "stats": []
   },
   "S709": {
-    "name": "Spell and Minion Damage",
-    "stats": ["5% increased Spell Damage","Minions deal 5% increased Damage"]
+    "name": "Spell Damage",
+    "stats": ["8% increased Spell Damage"]
   },
   "S710": {
     "name": "Energy Shield",
@@ -13265,6 +13265,69 @@
   "S1967": {
     "name": "Socket",
     "stats": ["Adds +1 Jewel Sockets"]
+  },
+  "S709-witch": {
+    "name": "Spell and Minion Damage",
+    "stats": [
+      "5% increased Spell Damage",
+      "Minions deal 5% increased Damage"
+    ]
+  },
+  "S692-witch": {
+    "name": "Spell and Minion Damage",
+    "stats": [
+      "5% increased Spell Damage",
+      "Minions deal 5% increased Damage"
+    ]
+  },
+  "S681-witch": {
+    "name": "Spell and Minion Damage",
+    "stats": [
+      "5% increased Spell Damage",
+      "Minions deal 5% increased Damage"
+    ]
+  },
+  "S686-witch": {
+    "name": "Minions Life",
+    "stats": [
+      "Minions have 10% increased maximum Life"
+    ]
+  },
+  "S673-witch": {
+    "name": "Minions Life",
+    "stats": [
+      "Minions have 10% increased maximum Life"
+    ]
+  },
+  "": {
+    "name": "",
+    "stats": [
+      ""
+    ]
+  },
+  "": {
+    "name": "",
+    "stats": [
+      ""
+    ]
+  },
+  "": {
+    "name": "",
+    "stats": [
+      ""
+    ]
+  },
+  "": {
+    "name": "",
+    "stats": [
+      ""
+    ]
+  },
+  "": {
+    "name": "",
+    "stats": [
+      ""
+    ]
   }
   
 }
