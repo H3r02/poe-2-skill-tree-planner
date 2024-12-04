@@ -8,7 +8,7 @@ interface SavesProps {
 
 const Saves: React.FC<SavesProps> = ({ }) => {
   const { selectedNodes, setSelectedNodes } = useNodes();
-  const { treeSaves, setTreeSaves, addSave, baseSave} = useSave();
+  const { treeSaves, setTreeSaves, addSave, permSave} = useSave();
   const { ascendancy, setAscendancy } = useAscendancy();
 
   const [currentSave, setCurrentSave] = useState<string>("");
@@ -56,15 +56,6 @@ const Saves: React.FC<SavesProps> = ({ }) => {
     setAscendancy(newSave.ascendancy);
   }
 
-  useEffect(() => {
-    if(!currentSave){
-      const newCurrSave = treeSaves.keys().next().value;
-      if(newCurrSave){
-        setCurrentSave(newCurrSave);
-      }
-    }
-  })
-
   const handleCreate = () => {
     const newAscendancy = copyCurrentTree ? ascendancy : "gemlinglegionnaire";
     const newSelected = copyCurrentTree ? new Set<string>(selectedNodes) : new Set<string>();
@@ -79,6 +70,12 @@ const Saves: React.FC<SavesProps> = ({ }) => {
 
   return (
     <div className="flex flex-row items-center justify-center space-x-0">
+              <button
+            onClick={permSave}
+            className=" bg-gray-500 text-white focus:outline-none w-[100px] hover:bg-gray-600 mr-2 "
+          >
+             save
+          </button>
       {/* Dropdown to select a save */}
       <select
         id="saveSelector"

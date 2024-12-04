@@ -47,7 +47,7 @@ export default function Header({ }: LeftSidebarProps) {
 
           if (hideNoSelectPassives && !selectedNodes.has(node.id)) return false;
 
-          if (hideAttrPassives && (node.name?.toLowerCase().includes('attribute'.toLowerCase()))) return false;
+          if (hideAttrPassives && (node.name?.toLowerCase() == 'attribute')) return false;
   
           return true;
         })

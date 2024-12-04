@@ -9357,8 +9357,8 @@
     "stats": []
   },
   "S1130": {
-    "name": "S1130",
-    "stats": []
+    "name": "Stun Threshold",
+    "stats": ["10% increased Stun Threshold"]
   },
   "S1131": {
     "name": "Immobilise Buildup",

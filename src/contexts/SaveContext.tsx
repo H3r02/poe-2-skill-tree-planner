@@ -21,6 +21,7 @@ interface SaveContextType {
 
   addSave: (name: string, ascendancy: string, tree: Set<string>) => void;
   removeSave: (name: string) => void;
+  permSave: () => void;
 
   exportSave: (name: string) => string;
   importSave: (encodedSave: string) => void;
@@ -81,8 +82,6 @@ export const SaveProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setTreeSaves(new Map<string, TreeSave>([["default tree", defaultTreeSave],]));
       }
 
-      
-
       const sLastVersion = localStorage.getItem("lastVersion");
       if (sLastVersion) {
         setLastVersion(Number(sLastVersion));
@@ -102,7 +101,7 @@ export const SaveProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
 
   // on every save update, post them to local storage
-  useEffect(() => {
+  const permSave = () => {
     async function saveState() {
 
       const treeObject = Object.fromEntries(
@@ -120,7 +119,7 @@ export const SaveProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     saveState();
 
-  }, [treeSaves]);
+  };
 
   // on last version update persist it
   useEffect(() => {
@@ -170,6 +169,7 @@ export const SaveProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
       addSave,
       removeSave,
+      permSave,
 
       exportSave,
       importSave

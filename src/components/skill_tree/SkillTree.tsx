@@ -42,7 +42,7 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
     }
   }, []);
 
-  console.log(ascendancy);
+
 
 
   const [isGrabbing, setIsGrabbing] = useState(false);
@@ -56,7 +56,7 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
       const rect = divRef.current.getBoundingClientRect();
       const x = event.clientX - rect.left;
       const y = event.clientY - rect.top;
-      console.log(x/scaledWidth/transformState.scale, y/scaledHeight/transformState.scale);
+      //console.log(x/scaledWidth/transformState.scale, y/scaledHeight/transformState.scale);
     }
   };
 
