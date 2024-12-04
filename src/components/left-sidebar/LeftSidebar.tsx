@@ -108,6 +108,13 @@ export default function Header({ }: LeftSidebarProps) {
           />
           Hide attributes
         </label>
+        <label className="flex items-center">
+                  <a 
+    href="https://example.com/large" 
+    className="hidden lg:inline text-blue-600 underline">Github</a>
+        </label>
+
+      
       </div>
     </div>
   )
