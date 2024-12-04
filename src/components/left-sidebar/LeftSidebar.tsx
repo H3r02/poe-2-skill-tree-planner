@@ -110,7 +110,7 @@ export default function Header({ }: LeftSidebarProps) {
         </label>
         <label className="flex items-center">
                   <a 
-    href="https://example.com/large" 
+    href="https://github.com/andrej2431/poe-2-skill-tree-planner" 
     className="hidden lg:inline text-blue-600 underline">Github</a>
         </label>
 

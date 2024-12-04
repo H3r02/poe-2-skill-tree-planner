@@ -64,6 +64,10 @@ const ChangeMessage: React.FC<ChangeMessageProps> = () => {
               </p>
 
               <p className="">
+                Radically improved visiblity of nodes
+              </p>
+
+              <p className="">
                 Hiding different types of passives
 
               </p>
