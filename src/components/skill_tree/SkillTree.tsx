@@ -1,8 +1,9 @@
-import React, { LegacyRef, Ref, useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import { TransformWrapper, TransformComponent, ReactZoomPanPinchContentRef, useTransformContext } from 'react-zoom-pan-pinch';
+import { TransformComponent, useTransformContext } from 'react-zoom-pan-pinch';
 import { useAscendancy } from '@/contexts/AscendancyContext';
 import NodeList from './NodeList';
+import AscendancyImage from './AscendancyImage';
 
 interface SkillTreeProps {
 }
@@ -11,12 +12,8 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
   const { transformState} = useTransformContext(); 
   const { ascendancy} = useAscendancy();
 
-  const [prevAscImg, setPrevAscImg] = useState<string>("");
-  const [currAscImg, setCurrAscImg] = useState<string>("");
-
   const [windowWidth, setWindowWidth] = useState<number>(0);
   const [windowHeight, setWindowHeight] = useState<number>(0);
-
 
 
   const imageWidth = 2750;
@@ -45,10 +42,9 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
     }
   }, []);
 
-  useEffect(() => {
-    setCurrAscImg(`/ascendancies/${ascendancy}.webp`);
-  }, [ascendancy, setPrevAscImg, setCurrAscImg]);
-  
+  console.log(ascendancy);
+
+
   const [isGrabbing, setIsGrabbing] = useState(false);
 
   const handleMouseDown = () => setIsGrabbing(true);
@@ -64,9 +60,6 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
     }
   };
 
-  const updatePrev = () => {
-    setPrevAscImg(currAscImg);
-  };
 
   return (
     <div
@@ -121,69 +114,18 @@ const SkillTree: React.FC<SkillTreeProps> = () => {
             objectFit: 'contain',
           }}
         />
-          {
-            
-          }
-
-          {prevAscImg && 
-          <div
-              style={{
-                position: 'absolute',
-                top: '50.4%',
-                left: '50.15%',
-                transform: 'translate(-50%, -50%)',
-                width:`${scaledMidWidth}px`, 
-                aspectRatio: '1',
-                borderRadius: '50%', // Makes it a circle
-                overflow: 'hidden', // Ensures the image is clipped to the circle
-              }}
-            >
-                <Image
-                src={prevAscImg}
-                alt="asc"
-                fill={true}
-                
-                priority={true}
-                quality={30}
-                sizes="width: 30vw"
-
-                className="transition-opacity duration-500 opacity-100"
-                style={{ objectFit: 'cover' }}
-              />
-          </div>
-          }
-            { currAscImg && 
-
-            <div
-                style={{
-                  position: 'absolute',
-                  top: '50.4%',
-                  left: '50.15%',
-                  transform: 'translate(-50%, -50%)',
-                  width:`${scaledMidWidth}px`, 
-                  aspectRatio: '1',
-                  borderRadius: '50%', // Makes it a circle
-                  overflow: 'hidden', // Ensures the image is clipped to the circle
-                }}
-              >
-            <Image
-              src={currAscImg}
-              alt="asc"
-              fill={true}
-              
-              priority={true}
-              loading="eager"
-              sizes="(max-width: 2000px) 100vw, (max-width: 2000px) 50vw, 33vw"
-              quality={75}
-              onLoad={updatePrev}
-
-              className="transition-opacity duration-500 opacity-100"
-              style={{ objectFit: 'cover' }}
-            />
-          </div>
-
-        }
-
+        <AscendancyImage hidden={ascendancy != 'gemlinglegionnaire'} ascendancy={'gemlinglegionnaire'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'acolyteofchayula'} ascendancy={'acolyteofchayula'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'bloodmage'} ascendancy={'bloodmage'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'chronomancer'} ascendancy={'chronomancer'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'deadeye'} ascendancy={'deadeye'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'infernalist'} ascendancy={'infernalist'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'invoker'} ascendancy={'invoker'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'pathfinder'} ascendancy={'pathfinder'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'stormweaver'} ascendancy={'stormweaver'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'titan'} ascendancy={'titan'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'warbringer'} ascendancy={'warbringer'} width={scaledMidWidth}/>
+        <AscendancyImage hidden={ascendancy != 'witchhunter'} ascendancy={'witchhunter'} width={scaledMidWidth}/>
   
 
         <NodeList/>

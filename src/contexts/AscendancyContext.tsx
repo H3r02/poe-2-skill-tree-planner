@@ -53,7 +53,7 @@ type AscendancyContextType = {
   
     const setAscendancy = (newAscendancy: string) => {
         if(newAscendancy == ascendancy) return;
-
+        
 
         const newClass = ASCENDANCY_TO_CLASS[newAscendancy];
         const newSelectedNodes = Array.from(selectedNodes).filter((nodeId) => {
@@ -67,6 +67,7 @@ type AscendancyContextType = {
           return baseId;
         });
         setSelectedNodes(new Set(newSelectedNodes));
+
 
         setAscendancyState(newAscendancy);
         setCharacterClass(newClass);
