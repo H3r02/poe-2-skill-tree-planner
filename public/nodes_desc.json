@@ -1880,8 +1880,8 @@
     "stats": ["16% increased Mana Recovery Rate"]
   },
   "N102": {
-    "name": "N102",
-    "stats": []
+    "name": "Gravedigger",
+    "stats": ["Mminions Revive 25% faster", "You gain 3% Life when one of your Minions is Revived"]
   },
   "N103": {
     "name": "N103",
@@ -1918,8 +1918,8 @@
     "stats": []
   },
   "N110": {
-    "name": "N110",
-    "stats": []
+    "name": "Crystalline Flesh",
+    "stats": ["Minions Have +20% to All Elemental Resistances", "Minions have +5% to All Maximum Elemental Resistances"]
   },
   "N111": {
     "name": "N111",
@@ -1966,8 +1966,8 @@
     "stats": []
   },
   "N120": {
-    "name": "N120",
-    "stats": []
+    "name": "Growing Swarm",
+    "stats": ["Minions Have 25% increased Area of Effect", "Minions have 25% reduced Enemy Stun Threshold"]
   },
   "N121": {
     "name": "Restless Dead",
@@ -2496,8 +2496,8 @@
     ]
   },
   "N228": {
-    "name": "N228",
-    "stats": []
+    "name": "Leeching Toxins",
+    "stats": ["30% increased Effect of Poison"]
   },
   "N229": {
     "name": "Life from Death",
@@ -2557,8 +2557,8 @@
     ]
   },
   "N241": {
-    "name": "N241",
-    "stats": []
+    "name": "Guttural Roar",
+    "stats": ["30% increased Warcry Speed", "Warcry Skills have 30% increased Area of Effect"]
   },
   "N242": {
     "name": "N242",
@@ -3091,8 +3091,8 @@
     ]
   },
   "N341": {
-    "name": "N341",
-    "stats": []
+    "name": "Split Shot",
+    "stats": ["Projectiles have 75% chance for an additional Projectile when Forking"]
   },
   "N342": {
     "name": "Hunker Down",
@@ -3131,8 +3131,8 @@
     "stats": []
   },
   "N349": {
-    "name": "N349",
-    "stats": []
+    "name": "Piercing Shot",
+    "stats": ["50% chance to Pierce an Enemy"]
   },
   "N350": {
     "name": "N350",
@@ -3323,8 +3323,8 @@
     "stats": []
   },
   "N383": {
-    "name": "N383",
-    "stats": []
+    "name": "Titanic",
+    "stats": ["30% increased Stun Buildup", "30% increased Threshold", "5% increased Strength"]
   },
   "N384": {
     "name": "Lasting Concoctions",
