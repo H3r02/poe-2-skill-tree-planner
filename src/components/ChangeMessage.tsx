@@ -30,7 +30,7 @@ const ChangeMessage: React.FC<ChangeMessageProps> = () => {
         >
           <div className="flex justify-between items-center  ">
           <h1 className="text-2xl text-center">andrej2431 </h1>
-            <h1 className="text-2xl w-[80%%] text-center">Poe Tree Planner V2 - Looks scuffed but works </h1>
+            <h1 className="text-2xl w-[80%] text-center">Poe Tree Planner V2 - Looks scuffed but works (Full ascendancies out) </h1>
             <button
               onClick={closeMessage}
               className="text-white font-bold ml-4"
