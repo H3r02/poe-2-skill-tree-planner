@@ -29,8 +29,8 @@ const ChangeMessage: React.FC<ChangeMessageProps> = () => {
           className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-blue-900 text-white p-4 rounded-md shadow-lg z-50 h-[90vh] w-[90vw] opacity-100 flex-col gap-y-10"
         >
           <div className="flex justify-between items-center  ">
-
-            <h1 className="text-2xl w-[100%] text-center">Poe Tree Planner V2 - Looks scuffed but works </h1>
+          <h1 className="text-2xl text-center">andrej2431 </h1>
+            <h1 className="text-2xl w-[80%%] text-center">Poe Tree Planner V2 - Looks scuffed but works </h1>
             <button
               onClick={closeMessage}
               className="text-white font-bold ml-4"
