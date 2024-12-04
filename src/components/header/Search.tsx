@@ -73,7 +73,7 @@ export default function SearchBar({ }: SearchBarProps) {
         const nodeId = Array.from(highlightedNodes)[highlightIndex];
         const node = allNodes.get(nodeId);
         if (node) {
-          zoomToElement(`passive-${node.id}`);
+          zoomToElement(`passive-${node.id}`,6);
         }
         setHighlightIndex((highlightIndex+1) % highlightedNodes.size);
       };
