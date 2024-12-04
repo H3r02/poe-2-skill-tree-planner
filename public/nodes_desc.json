@@ -1755,7 +1755,7 @@
     "stats": []
   },
   "N73": {
-    "name": "BLUPA notable",
+    "name": "Unknown notable",
     "stats": ["Gain 6% of Physical Damage as Chaos Damage"]
   },
   "N74": {
@@ -1783,7 +1783,7 @@
     "stats": []
   },
   "N80": {
-    "name": "BLUPA notable",
+    "name": "Minion Accuracy",
     "stats": ["Minions have +150 to Accuracy Rating", "25% increased Minion Accuracy Rating"]
   },
   "N81": {
@@ -2079,7 +2079,7 @@
     ]
   },
   "N143": {
-    "name": "BLUPA notable",
+    "name": "Spell Damage",
     "stats": ["30% increased Spell Damage", "5% reduced Cast Speed"]
   },
   "N144": {
@@ -2200,7 +2200,7 @@
     ]
   },
   "N169": {
-    "name": "BLUPA notable",
+    "name": "Unknown notable",
     "stats": ["18% increased Maximum Energy Shield", "12% increased Mana Regeneration Rate", "6% increased Intelligence"]
   },
   "N170": {
@@ -2339,7 +2339,7 @@
     ]
   },
   "N196": {
-    "name": "BLUPA notable",
+    "name": "Spell Haste",
     "stats": ["10% increased Cast Speed"]
   },
   "N197": {
@@ -2347,7 +2347,7 @@
     "stats": []
   },
   "N198": {
-    "name": "BLUPA notable",
+    "name": "Unknown notable",
     "stats": ["6% of Damage taken Recouped as Life"]
   },
   "N199": {
@@ -2394,7 +2394,7 @@
     "stats": ["16% increased Spell Damage", "Minions deal 16% increased Damage", "+10 to Intelligence"]
   },
   "N207": {
-    "name": "BLUPA notable",
+    "name": "Pure Energy",
     "stats": ["30% increased Maximum Energy Shield", "+10 to Intelligence"]
   },
   "N208": {
@@ -4776,8 +4776,8 @@
     "stats": []
   },
   "S95": {
-    "name": "S95",
-    "stats": []
+    "name": "Physical Damage",
+    "stats": ["10% increased Physical Damage"]
   },
   "S96": {
     "name": "S96",
@@ -4792,8 +4792,8 @@
     "stats": []
   },
   "S99": {
-    "name": "S99",
-    "stats": []
+    "name": "Overwhelm Physical",
+    "stats": ["Overwhelm 5% Physical Damage Reduction"]
   },
   "S100": {
     "name": "S100",
@@ -4844,12 +4844,12 @@
     "stats": []
   },
   "S112": {
-    "name": "S112",
-    "stats": []
+    "name": "Overwhelm Physical",
+    "stats": ["Overwhelm 5% Physical Damage Reduction"]
   },
   "S113": {
-    "name": "S113",
-    "stats": []
+    "name": "Physical Damage",
+    "stats": ["10% increased Physical Damage"]
   },
   "S114": {
     "name": "Curse Effect",
@@ -4864,16 +4864,16 @@
     "stats": []
   },
   "S117": {
-    "name": "S117",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S118": {
     "name": "S118",
     "stats": []
   },
   "S119": {
-    "name": "S119",
-    "stats": []
+    "name": "Physical Damage",
+    "stats": ["10% increased Physical Damage"]
   },
   "S120": {
     "name": "S120",
@@ -4888,8 +4888,8 @@
     "stats": []
   },
   "S123": {
-    "name": "S123",
-    "stats": []
+    "name": "Physical Damage",
+    "stats": ["10% increased Physical Damage"]
   },
   "S124": {
     "name": "S124",
@@ -4908,8 +4908,8 @@
     "stats": []
   },
   "S128": {
-    "name": "S128",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S129": {
     "name": "S129",
@@ -4940,28 +4940,28 @@
     "stats": []
   },
   "S136": {
-    "name": "S136",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S137": {
     "name": "S137",
     "stats": []
   },
   "S138": {
-    "name": "S138",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S139": {
     "name": "S139",
     "stats": []
   },
   "S140": {
-    "name": "S140",
-    "stats": []
+    "name": "Elemental Damage",
+    "stats": ["10% increased Elemental Damage"]
   },
   "S141": {
-    "name": "S141",
-    "stats": []
+    "name": "Elemental Damage",
+    "stats": ["10% increased Elemental Damage"]
   },
   "S142": {
     "name": "S142",
@@ -5122,8 +5122,8 @@
     "stats": []
   },
   "S179": {
-    "name": "S179",
-    "stats": []
+    "name": "Elemental Damage",
+    "stats": ["10% increased Elemental Damage"]
   },
   "S180": {
     "name": "S180",
@@ -5238,8 +5238,8 @@
     ]
   },
   "S206": {
-    "name": "S206",
-    "stats": []
+    "name": "Energy Shield Recharge",
+    "stats": ["15% increased Energy Shield Recharge Rate"]
   },
   "S207": {
     "name": "S207",
@@ -5336,8 +5336,8 @@
     "stats": []
   },
   "S226": {
-    "name": "S226",
-    "stats": []
+    "name": "Chaos Damage",
+    "stats": ["10% increased Chaos Damage"]
   },
   "S227": {
     "name": "S227",
@@ -5558,15 +5558,15 @@
     "stats": []
   },
   "S280": {
-    "name": "BLUPA small",
+    "name": "Minion Damage",
     "stats": ["Minions deal 10% increased Damage"]
   },
   "S281": {
-    "name": "BLUPA small",
+    "name": "Minion Damage",
     "stats": ["Minions deal 10% increased Damage"]
   },
   "S282": {
-    "name": "BLUPA small",
+    "name": "Physical Damage",
     "stats": ["10% increased Physical Damage"]
   },
   "S283": {
@@ -5638,7 +5638,7 @@
     "stats": []
   },
   "S299": {
-    "name": "BLUPA small",
+    "name": "Minion Damage",
     "stats": ["Minions deal 10% increased Damage"]
   },
   "S300": {
@@ -5908,8 +5908,8 @@
     "stats": []
   },
   "S362": {
-    "name": "S362",
-    "stats": []
+    "name": "Minions Attack and Cast Speed",
+    "stats": ["Minions have 4% increased Attack and Cast Speed"]
   },
   "S363": {
     "name": "Attribute",
@@ -5938,8 +5938,8 @@
     "stats": []
   },
   "S369": {
-    "name": "S369",
-    "stats": []
+    "name": "Minions Attack and Cast Speed",
+    "stats": ["Minions have 4% increased Attack and Cast Speed"]
   },
   "S370": {
     "name": "Attribute",
@@ -6006,8 +6006,8 @@
     "stats": []
   },
   "S385": {
-    "name": "S385",
-    "stats": []
+    "name": "Minions Attack and Cast Speed",
+    "stats": ["Minions have 4% increased Attack and Cast Speed"]
   },
   "S386": {
     "name": "S386",
@@ -6018,8 +6018,8 @@
     "stats": []
   },
   "S388": {
-    "name": "S388",
-    "stats": []
+    "name": "Lightning Penetration",
+    "stats": ["Damage Penetrates 4% Lightning Resistance"]
   },
   "S389": {
     "name": "S389",
@@ -6054,8 +6054,8 @@
     "stats": []
   },
   "S397": {
-    "name": "S397",
-    "stats": []
+    "name": "Lightning Penetration",
+    "stats": ["Damage Penetrates 4% Lightning Resistance"]
   },
   "S398": {
     "name": "S398",
@@ -6074,8 +6074,8 @@
     "stats": []
   },
   "S402": {
-    "name": "S402",
-    "stats": []
+    "name": "Stun THreshold and Energy Shield",
+    "stats": ["Gain 15% of Maximum Energy Shield as additional Stun Threshold"]
   },
   "S403": {
     "name": "S403",
@@ -6110,8 +6110,8 @@
     "stats": ["Damage Penetrates 4% Cold Resistance"]
   },
   "S411": {
-    "name": "S411",
-    "stats": []
+    "name": "Cold Penetration",
+    "stats": ["Damage Penetrates 4% Cold Resistance"]
   },
   "S412": {
     "name": "Attribute",
@@ -6231,8 +6231,8 @@
     "stats": []
   },
   "S438": {
-    "name": "S438",
-    "stats": []
+    "name": "Fire Penetration",
+    "stats":["Damage Penetrates 4% Fire Resistance"]
   },
   "S439": {
     "name": "S439",
@@ -6255,8 +6255,8 @@
     ]
   },
   "S443": {
-    "name": "S443",
-    "stats": []
+    "name": "Curse Area",
+    "stats": ["20% increased Area of Effect of Hex Skills"]
   },
   "S444": {
     "name": "S444",
@@ -6553,7 +6553,7 @@
     "stats": ["10% increased Critical Spell Damage Bonus"]
   },
   "S508": {
-    "name": "BLUPA small",
+    "name": "Energy Shield",
     "stats": ["15% increased Maximum Energy Shield"]
   },
   "S509": {
@@ -6663,8 +6663,8 @@
     ]
   },
   "S533": {
-    "name": "S533",
-    "stats": []
+    "name": "Warcry Speed",
+    "stats": ["16% increased Warcry Speed"]
   },
   "S534": {
     "name": "S534",
@@ -6683,8 +6683,8 @@
     "stats": []
   },
   "S538": {
-    "name": "S538",
-    "stats": []
+    "name": "Warcry Speed",
+    "stats": ["16% increased Warcry Speed"]
   },
   "S539": {
     "name": "S539",
@@ -6717,7 +6717,7 @@
     "stats": []
   },
   "S546": {
-    "name": "BLUPA small",
+    "name": "Energy Shield",
     "stats": ["15% increased Maximum Energy Shield"]
   },
   "S547": {
@@ -6755,8 +6755,8 @@
     ]
   },
   "S554": {
-    "name": "S554",
-    "stats": []
+    "name": "Warcry Cooldown Speed",
+    "stats": ["10% increased Cooldown Recovery Rate"]
   },
   "S555": {
     "name": "S555",
@@ -6779,8 +6779,8 @@
     "stats": ["10% increased Chaos Damage"]
   },
   "S560": {
-    "name": "S560",
-    "stats": []
+    "name": "Warcry Cooldown Speed",
+    "stats": ["10% increased Warcry Cooldown Recovery Rate"]
   },
   "S561": {
     "name": "S561",
@@ -6831,12 +6831,12 @@
     "stats": []
   },
   "S572": {
-    "name": "BLUPA small",
-    "stats": ["10% increased Fire Damage", ""]
+    "name": "Fire Damage",
+    "stats": ["10% increased Fire Damage"]
   },
   "S573": {
-    "name": "BLUPA small",
-    "stats": ["10% increased Fire Damage", ""]
+    "name": "Fire Damage",
+    "stats": ["10% increased Fire Damage"]
   },
   "S574": {
     "name": "Energy Shield",
@@ -6917,9 +6917,13 @@
     "name": "Energy Shield and Armour",
     "stats": ["8% increased Armour", "8% increased maximum Energy Shield"]
   },
-  "S592": {
-    "name": "BLUPA small",
+  "S592-witch": {
+    "name": "Minion Damage",
     "stats": ["Minions deal 10% increased Damage", "10% increased Cold damage"]
+  },
+  "S592": {
+    "name": "Cold Damage",
+    "stats": [ "10% increased Cold damage"]
   },
   "S593": {
     "name": "S593",
@@ -6944,8 +6948,8 @@
     "stats": []
   },
   "S598": {
-    "name": "S598",
-    "stats": []
+    "name": "Life on Kill",
+    "stats": ["Recover 1% Life on Kill"]
   },
   "S599": {
     "name": "S599",
@@ -7022,8 +7026,12 @@
     "stats": []
   },
   "S615": {
-    "name": "BLUPA small",
-    "stats": ["8% increased Spell Damage", "Minions deal 8% increased Damage"]
+    "name": "Spell Damage",
+    "stats": ["8% increased Spell Damage"]
+  },
+  "S615-witch": {
+    "name": "Minion Damage",
+    "stats": ["Minions deal 8% increased Damage"]
   },
   "S616": {
     "name": "S616",
@@ -7040,8 +7048,8 @@
     ]
   },
   "S619": {
-    "name": "S619",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S620": {
     "name": "S620",
@@ -7052,8 +7060,8 @@
     "stats": []
   },
   "S622": {
-    "name": "S622",
-    "stats": []
+    "name": "Minions Life and Chaos Resistance",
+    "stats": ["Minions have 8% increased Maximum Life", "Minions have 7% to Chaos Resistance"]
   },
   "S623": {
     "name": "S623",
@@ -7118,11 +7126,11 @@
     "stats": []
   },
   "S637": {
-    "name": "BLUPA small",
+    "name": "Cast Speed",
     "stats": ["3% increased Cast Speed"]
   },
   "S638": {
-    "name": "BLUPA small",
+    "name": "Cast Speed",
     "stats": ["3% increased Cast Speed"]
   },
   "S639": {
@@ -7146,7 +7154,7 @@
     "stats": []
   },
   "S644": {
-    "name": "BLUPA small",
+    "name": "Life Recoup",
     "stats": ["3% of Damage taken Recouped as Life"]
   },
   "S645": {
@@ -7202,11 +7210,11 @@
     "stats": []
   },
   "S656": {
-    "name": "BLUPA small",
+    "name": "Mana Regeneration",
     "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S657": {
-    "name": "BLUPA small",
+    "name": "Mana Regeneration",
     "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S658": {
@@ -7288,8 +7296,8 @@
     "stats": ["8% increased Maximum Mana"]
   },
   "S675": {
-    "name": "S675",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": ["10% increased Attack Damage"]
   },
   "S676": {
     "name": "S676",
@@ -7344,7 +7352,7 @@
     "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S687": {
-    "name": "BLUPA small",
+    "name": "Mana",
     "stats": ["8% increased Maximum Mana"]
   },
   "S688": {
@@ -7438,8 +7446,8 @@
     "stats": []
   },
   "S708": {
-    "name": "S708",
-    "stats": []
+    "name": "Attack Speed",
+    "stats": ["3% increased Attack Speed"]
   },
   "S709": {
     "name": "Spell Damage",
@@ -7802,8 +7810,8 @@
     ]
   },
   "S788": {
-    "name": "BLUPA small",
-    "stats": ["10% increased Critical Dmage Bonus"]
+    "name": "Critical Damage",
+    "stats": ["10% increased Critical Damage Bonus"]
   },
   "S789": {
     "name": "Attribute",
@@ -7819,9 +7827,9 @@
     "name": "S791",
     "stats": []
   },
-  "BLUPA small": {
-    "name": "10% increased Critical Hit Chance",
-    "stats": []
+  "S792": {
+    "name": "Critical Hit Change",
+    "stats": ["10% increased Critical Hit Chance"]
   },
   "S793": {
     "name": "S793",
@@ -8006,7 +8014,7 @@
     "stats": []
   },
   "S836": {
-    "name": "BLUPA small",
+    "name": "Mana",
     "stats": ["8% increased Maximum Mana"]
   },
   "S837": {
@@ -8020,8 +8028,8 @@
     ]
   },
   "S839": {
-    "name": "S839",
-    "stats": []
+    "name": "Quarterstaff Speed",
+    "stats": ["4% increased Attack Speed with Staves"]
   },
   "S840": {
     "name": "S840",
@@ -8056,7 +8064,7 @@
     "stats": []
   },
   "S848": {
-    "name": "BLUPA small",
+    "name": "Mana",
     "stats": ["8% increased Maximum Mana"]
   },
   "S849": {
@@ -8086,12 +8094,12 @@
     "stats": []
   },
   "S855": {
-    "name": "S855",
-    "stats": []
+    "name": "Elemental Damage",
+    "stats": ["10% increased Elemental Damage"]
   },
   "S856": {
-    "name": "S856",
-    "stats": []
+    "name": "Fire Damage",
+    "stats": ["12% increased Fire Damage"]
   },
   "S857": {
     "name": "S857",
@@ -8114,7 +8122,7 @@
     "stats": []
   },
   "S862": {
-    "name": "BLUPA small",
+    "name": "Evasion and Energy Shield",
     "stats": ["+11 to Evasion Rating", "+7 to max Energy Shield"]
   },
   "S863": {
@@ -8132,7 +8140,7 @@
     "stats": []
   },
   "S866": {
-    "name": "BLUPA small",
+    "name": "Evasion and Energy Shield",
     "stats": ["8% increased Evasion Rating", "8% increased max Energy Shield"]
   },
   "S867": {
@@ -8660,8 +8668,8 @@
     "stats": []
   },
   "S979": {
-    "name": "S979",
-    "stats": []
+    "name": "Ignite Chance",
+    "stats": ["20% increased chance to Ignite"]
   },
   "S980": {
     "name": "S980",
@@ -8772,8 +8780,8 @@
     "stats": []
   },
   "S1003": {
-    "name": "S1003",
-    "stats": []
+    "name": "Maximum Fire Resistance",
+    "stats": ["+1% to Maximum Fire Resistance"]
   },
   "S1004": {
     "name": "Attribute",
@@ -8838,8 +8846,8 @@
     "stats": ["10% increased Projectile Damage"]
   },
   "S1018": {
-    "name": "S1018",
-    "stats": []
+    "name": "Maximum Fire Resistance",
+    "stats": ["+1% to Maximum Fire Resistance"]
   },
   "S1019": {
     "name": "S1019",
@@ -9130,8 +9138,8 @@
     "stats": []
   },
   "S1084": {
-    "name": "S1084",
-    "stats": []
+    "name": "Armour",
+    "stats": ["+20 to Armour"]
   },
   "S1085": {
     "name": "S1085",
@@ -9948,7 +9956,7 @@
     "S1255": {
         "name": "Attribute",
         "stats": [
-            "+5 to any Attribute "
+            "+5 to any Attribute"
         ]
     },
   "S1256": {
@@ -11450,8 +11458,8 @@
 		"stats": ["12% increased Grenade Area of Effect"]
   },
   "S1568": {
-    "name": "S1568",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1569": {
     "name": "S1569",
@@ -11516,8 +11524,8 @@
     "stats": []
   },
   "S1583": {
-    "name": "S1583",
-    "stats": []
+    "name": "Grenade Cooldown Recover Rate",
+    "stats": ["15% increased Cooldown Recovery Rate for Grenade Skills"]
   },
   "S1584": {
     "name": "S1584",
@@ -12158,8 +12166,8 @@
     "stats": []
   },
   "S1724": {
-    "name": "S1724",
-    "stats": []
+    "name": "Maximum Lightning Resistance",
+    "stats": ["+1% to Maximum Lightning Resistance"]
   },
   "S1725": {
     "name": "S1725",
@@ -13015,7 +13023,7 @@
   "S1899": {
     "name": "Attack Speed",
     "stats": [
-      "4% increased Attack SPeed while a Rare or Unique Enemy is Nearby"
+      "4% increased Attack Speed while a Rare or Unique Enemy is Nearby"
     ]
   },
   "S1900": {
@@ -13043,7 +13051,7 @@
   "S1905": {
     "name": "Attack Speed",
     "stats": [
-      "4% increased Attack SPeed while a Rare or Unique Enemy is Nearby"
+      "4% increased Attack Speed while a Rare or Unique Enemy is Nearby"
     ]
   },
   "S1906": {

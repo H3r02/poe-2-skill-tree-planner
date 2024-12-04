@@ -30,7 +30,7 @@ const Tooltip: React.FC<TooltipProps> = ({node}) => {
       }}
     >
     <div>
-          <strong>{node.id}</strong>
+          <strong>{node.name}</strong>
           <ul>
             {node.stats.map((stat, index) => (
               <li key={index}>{stat}</li>

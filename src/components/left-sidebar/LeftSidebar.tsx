@@ -8,7 +8,7 @@ interface LeftSidebarProps {
 
 export default function Header({ }: LeftSidebarProps) {
   const { allNodes } = useAllNodes();
-  const { selectedNodes, setDisplayedNodes} = useNodes();
+  const { selectedNodes, setDisplayedNodes, setSelectedNodes} = useNodes();
   const {ascendancy,characterClass } = useAscendancy();
   
   const [hideSmallPassives, setHideSmallPassives] = useState<boolean>(false);
@@ -33,6 +33,10 @@ export default function Header({ }: LeftSidebarProps) {
       setHideAttrPassives(checked);
     };
 
+    const resetPassives = () => {
+      setSelectedNodes(new Set());
+    };
+
 
 
 
@@ -40,8 +44,6 @@ export default function Header({ }: LeftSidebarProps) {
       const newDisplayedNodes = Array.from(allNodes.values())
         .filter((node) => {
           if (hideSmallPassives && node.type === "small") return false;
-  
-          if (hideNoStatPassives && node.stats.length === 0 && !selectedNodes.has(node.id)) return false;
 
           if (hideNoSelectPassives && !selectedNodes.has(node.id)) return false;
 
@@ -81,15 +83,7 @@ export default function Header({ }: LeftSidebarProps) {
           />
           Hide small
         </label>
-        <label className="flex items-center">
-          <input
-            type="checkbox"
-            checked={hideNoStatPassives}
-            onChange={(e) => onHideNoStatChange(e.target.checked)}
-            className="mr-2"
-          />
-          Hide unidentified
-        </label>
+
         <label className="flex items-center">
           <input
             type="checkbox"
@@ -108,6 +102,12 @@ export default function Header({ }: LeftSidebarProps) {
           />
           Hide attributes
         </label>
+        <button
+            onClick={resetPassives}
+            className=" bg-gray-500 text-white focus:outline-none w-[100px] hover:bg-gray-600"
+          >
+             Reset Passives
+          </button>
         <label className="flex items-center">
                   <a 
     href="https://github.com/andrej2431/poe-2-skill-tree-planner" 

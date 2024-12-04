@@ -39,9 +39,9 @@ export default function SearchBar({ }: SearchBarProps) {
         const highlightedNodeIds = Array.from(allNodes.values())
         .filter((node) => displayedNodes.has(node.id))
           .filter((node) => {
-            const nameMatch = node.name?.toLowerCase().includes(searchQuery);
+            const nameMatch = node.name?.toLowerCase().includes(searchQuery.toLowerCase());
             const statsMatch = node.stats.some((stat) =>
-              stat.toLowerCase().includes(searchQuery)
+              stat.toLowerCase().includes(searchQuery.toLowerCase())
             );
             return nameMatch || statsMatch;
           })
