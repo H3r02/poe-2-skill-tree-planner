@@ -10,7 +10,8 @@ export default {
     extend: {
       screens: {
         'custom-xl' : '1300px',
-        'custom-m' : '1000px'
+        'custom-m' : '1000px',
+        'custom-s' : '550px'
       },
       colors: {
         background: "var(--background)",

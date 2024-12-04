@@ -133,6 +133,11 @@ export const SaveProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
 
   const addSave = (name: string, ascendancy: string, tree: Set<string>) => {
+    if(!name){
+      console.log("cant create empty name save!");
+      return;
+    }
+
     if (treeSaves.has(name)) {
       //TODO better notif
       console.log("already have a save with that name");
@@ -142,12 +147,17 @@ export const SaveProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const updatedTrees = new Map(treeSaves);
     updatedTrees.set(name, { ascendancy, tree });
     setTreeSaves(updatedTrees);
+    permSave();
   };
 
   const removeSave = (name: string) => {
+    if(treeSaves.size <= 1){
+      return;
+    }
     const updatedTrees = new Map(treeSaves);
     updatedTrees.delete(name);
     setTreeSaves(updatedTrees);
+    permSave();
   };
 
   const exportSave = (name: string) => {

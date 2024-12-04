@@ -20,7 +20,7 @@ export default function AscendancySepect({ }: AscendancySelectProps) {
                 id="saveSelector"
                 value={ascendancy}
                 onChange={handleAscendancyChange}
-                className="p-1  rounded-md bg-gray-700 cursor-pointer w-[200px] focus:outline-none"
+                className="p-1  rounded-md bg-gray-700 cursor-pointer w-[160px] custom-s:w-[200px] focus:outline-none"
             >
                 {
                     Object.entries(ASCENDANCY_WITH_TEXT).map(([asc, asc_text]) => (

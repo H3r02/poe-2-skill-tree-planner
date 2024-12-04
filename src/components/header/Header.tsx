@@ -28,7 +28,7 @@ export default function Header({ }: HeaderProps) {
         <div className="h-full">
           <button
             onClick={toggleLeftSidebar}
-            className=" bg-gray-500 text-white  h-full focus:outline-none w-[100px] custom-m:[150px] custom-xl:w-[200px] "
+            className=" bg-gray-500 text-white  h-full focus:outline-none w-[100px] custom-m:w-[150px] custom-xl:w-[200px] "
           >
              <span className="inline custom-m:hidden">Settings</span>
              <span className="hidden custom-m:inline">Show Settings</span>
