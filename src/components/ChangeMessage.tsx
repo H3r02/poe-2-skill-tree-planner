@@ -39,7 +39,7 @@ const ChangeMessage: React.FC<ChangeMessageProps> = () => {
             </button>
           </div>
 
-          <div className="max-w-4xl mx-auto p-6   flex-col gap-y-10  overflow-y-scroll  h-[80vh]">
+          <div className="max-w-4xl mx-auto p-6   flex-col gap-y-10  overflow-y-auto  h-[80vh]">
 
             <div className="mb-8 shadow-xl bg-blue-500 rounded-lg p-5 text-l">
               <h2 className="text-2xl font-bold  mb-4">Importing/Exporting trees added</h2>

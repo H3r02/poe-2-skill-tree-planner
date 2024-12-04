@@ -2,6 +2,7 @@ import { useAllNodes } from "@/contexts/AllNodesContext";
 import { useNodes } from "@/contexts/NodesContext";
 import { useEffect, useRef, useState } from "react";
 import { useControls } from "react-zoom-pan-pinch";
+import Zizaran from "../meme/Zizaran";
 
 interface SearchBarProps {
 }
@@ -13,6 +14,7 @@ export default function SearchBar({ }: SearchBarProps) {
     const [searchQuery, setSearchQuery] = useState<string>("");
     const [highlightIndex, setHighlightIndex] = useState<number>(0);
     const searchInputRef = useRef<HTMLInputElement>(null);
+    const [zizOn, setZizOn] = useState(false);
 
 
     useEffect(() => {
@@ -35,6 +37,8 @@ export default function SearchBar({ }: SearchBarProps) {
           setHighlightedNodes(new Set());
           return;
         }
+
+
   
         const highlightedNodeIds = Array.from(allNodes.values())
         .filter((node) => displayedNodes.has(node.id))
@@ -48,6 +52,10 @@ export default function SearchBar({ }: SearchBarProps) {
           .map((node) => node.id);
     
         setHighlightedNodes(new Set(highlightedNodeIds));
+
+        if(searchQuery == "zizaran"){
+          setSearchQuery("");
+        }
     
       }, [allNodes, searchQuery, displayedNodes]);
   
@@ -58,6 +66,10 @@ export default function SearchBar({ }: SearchBarProps) {
     }
 
     const onEnter = () => {
+        if(searchQuery == "zizaran"){
+          setSearchQuery("");
+        }
+
         const nodeId = Array.from(highlightedNodes)[highlightIndex];
         const node = allNodes.get(nodeId);
         if (node) {
@@ -84,6 +96,7 @@ export default function SearchBar({ }: SearchBarProps) {
             <label className="p-1">
                 {`${highlightIndex}/${highlightedNodes.size}`}
             </label>
+            <Zizaran term={searchQuery}/>
         </div>
     );
 }
