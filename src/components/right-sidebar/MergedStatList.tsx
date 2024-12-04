@@ -2,22 +2,21 @@ import React, { useState } from 'react';
 import { NodeData } from '../../types';
 
 interface StatListProps {
-  filteredNodeData : NodeData[],
-  filterTerm : string
+  filteredNodeData: NodeData[],
+  filterTerm: string
 }
 
-const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm}) => { 
+const MergedStatList: React.FC<StatListProps> = ({ filteredNodeData, filterTerm }) => {
   const stats = filteredNodeData.map((node) => node.stats).flat().filter((stat) => {
     return stat.toLowerCase().includes(filterTerm.toLowerCase())
-    
+
   });
-  
+
   // am too lazy, mostly chatgpt generated
 
   const statMap: Record<string, number> = {};
-  
-  const statPattern =/(?=[+-]?)(\d*\.?\d+)(%?)/g;
 
+  const statPattern = /(?=[+-]?)(\d*\.?\d+)(%?)/g;
   stats.forEach((stat) => {
     const matches = [...stat.matchAll(statPattern)];
 
@@ -26,7 +25,7 @@ const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm})
     // Initialize the cumulative value for this stat
     if (matches.length > 0) {
       const value = matches[0][1]; // First match
-      const numericValue =  parseFloat(value) // Percentage value; // Regular integer value
+      const numericValue = parseFloat(value) // Percentage value; // Regular integer value
       cumulativeValue += numericValue; // Add value to cumulative sum
       statKey = stat.replace(value, '*').trim();
     }
@@ -46,13 +45,12 @@ const MergedStatList: React.FC<StatListProps> = ({filteredNodeData, filterTerm})
   });
 
   return (
-    <div>
-        <h3 className="p-0 text-4xl font-bold mb-2 mt-4">Merged Stats</h3>
-        <ul>
-            {mergedStats.map((stat, index) => (
-                    <li className='mb-1' key={index}>{stat}</li>
-            ))}
-        </ul>
+    <div className="mt-2">
+      <ul>
+        {mergedStats.map((stat, index) => (
+          <li className='mb-1' key={index}>{stat}</li>
+        ))}
+      </ul>
     </div>
 
   );

@@ -1,32 +1,36 @@
 {
-  "A1-GemlingLegionnaire": {
-    "name": "A1",
+  "A2-gemlinglegionnaire": {
+    "name": "Implanted Gems",
     "stats": [
+      "+1 to Level of all Skills"
     ]
   },
-  "A2-GemlingLegionnaire": {
+  "A1-gemlinglegionnaire": {
     "name": "Crystalline Potential",
     "stats": [
-      "+12% to Quality of all Skill Gems"
+      "+10% to Quality of all Skill Gems"
     ]
   },
-  "A3-GemlingLegionnaire": {
-    "name": "A3",
+  "A3-gemlinglegionnaire": {
+    "name": "Advanced Thaumaturgy",
     "stats": [
+      "30% less Cost of Skills",
+      "Skill Gems have 30% more Attribute Requirements"
     ]
   },
-  "A4-GemlingLegionnaire": {
-    "name": "A4",
+  "A5-gemlinglegionnaire": {
+    "name": "Gem Studded",
     "stats": [
+      "You can use two copies of the same Support Gem in different Skills"
     ]
   },
-  "A5-GemlingLegionnaire": {
+  "A4-gemlinglegionnaire": {
     "name": "Integrated Efficiency",
     "stats": [
       "Grants 3 additional Skill Slots"
     ]
   },
-  "A6-GemlingLegionnaire": {
+  "A6-gemlinglegionnaire": {
     "name": "Thaumaturgical Infusion",
     "stats": [
       "+1% to Maximum Cold Resistance per 3 Blue Support Gems Socketed anywhere",
@@ -34,180 +38,196 @@
       "+1% to Maximum Lightning Resistance per 3 Green Support Gems Socketed anywhere"
     ]
   },
-  "A7-GemlingLegionnaire": {
+  "A7-gemlinglegionnaire": {
     "name": "Adaptive Capability",
     "stats": [
       "Attribute Requirements of Gems can be satisfied by your highest Attribute"
     ]
   },
-  "A8-GemlingLegionnaire": {
-    "name": "A8",
+  "A8-gemlinglegionnaire": {
+    "name": "Enhanced Effectiveness",
     "stats": [
+      "Inherent bonuses from Intelligence, Strength and Dexterity are doubled"
     ]
   },
-  "A9-GemlingLegionnaire": {
+  "A9-gemlinglegionnaire": {
     "name": "A9",
     "stats": [
     ]
   },
-  "A10-GemlingLegionnaire": {
+  "A10-gemlinglegionnaire": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-GemlingLegionnaire": {
+  "A11-gemlinglegionnaire": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-GemlingLegionnaire": {
+  "A12-gemlinglegionnaire": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-GemlingLegionnaire": {
+  "A13-gemlinglegionnaire": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-GemlingLegionnaire": {
+  "A14-gemlinglegionnaire": {
     "name": "A14",
     "stats": [
     ]
   },
 
-  "A15-GemlingLegionnaire": {
+  "A15-gemlinglegionnaire": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-GemlingLegionnaire": {
+  "A16-gemlinglegionnaire": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A1-BloodMage": {
+  "A1-bloodmage": {
     "name": "Sanguimancy",
     "stats": [
-      "Grants Skill: Life Remnants",
+      "Grants Skill: Life Remnants(chance to spawn remnant on kill or crit (has cd). grants life that overflows(can have 2x hp) max life)",
       "Skills gain a Base Life Cost equal to Base Mana Cost"
     ]
   },
-  "A2-BloodMage": {
+  "A2-bloodmage": {
     "name": "Vitality Siphon",
     "stats": [
       "10% of Spell Damage Leeched as Life"
     ]
   },
-  "A3-BloodMage": {
-    "name": "A3",
+  "A3-bloodmage": {
+    "name": "Open Sores",
     "stats": [
+      "Your Curses have infinity Duration"
     ]
   },
-  "A4-BloodMage": {
+  "A4-bloodmage": {
+    "name": "Blood Barbs",
+    "stats": [
+      "Gain 10% of Damage as Extra Physical Damage",
+      "Elemental Damage also Contributes to Bleeding Magnitude"
+    ]
+  },
+  "A5-bloodmage": {
     "name": "Gore Spike",
     "stats": [
-      "1% increased Critical Damage Bonus per 20 Life"
+      "1% increased Critical Damage Bonus per 40 Life"
     ]
   },
-  "A5-BloodMage": {
-    "name": "A5",
-    "stats": [
-    ]
-  },
-  "A6-BloodMage": {
+  "A8-bloodmage": {
     "name": "Crimson Power",
     "stats": [
       "Gain Energy Shield from equipped Body Armour as extra maximum Life"
     ]
   },
-  "A7-BloodMage": {
-    "name": "A7",
+  "A7-bloodmage": {
+    "name": "Grasping Wounds",
     "stats": [
+      "25% of Life Loss from Hits is prevented, then that much Life is lost over 4 seconds instead"
     ]
   },
-  "A8-BloodMage": {
-    "name": "A8",
+  "A6-bloodmage": {
+    "name": "Sunder The Flesh",
     "stats": [
+      "Base Critical Hit Chance for Spells is 15%"
     ]
   },
-  "A9-BloodMage": {
+  "A9-bloodmage": {
     "name": "A9",
     "stats": [
     ]
   },
-  "A10-BloodMage": {
+  "A10-bloodmage": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-BloodMage": {
+  "A11-bloodmage": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-BloodMage": {
+  "A12-bloodmage": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-BloodMage": {
+  "A13-bloodmage": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-BloodMage": {
+  "A14-bloodmage": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-BloodMage": {
+  "A15-bloodmage": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-BloodMage": {
+  "A16-bloodmage": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A1-AcolyteOfChayula": {
-    "name": "A1",
+  "A4-acolyteofchayula": {
+    "name": "Reality Rending",
     "stats": [
+      "23% chance to Gain 25% of Damage with Hitis as Extra Chaos Damage",
+      "13% chance to Gain 50% of Damage with Hits as Extra Chaos Damage",
+      "7% chance to Gain 100% of Damage with Hits as Extra Chaos Damage"
     ]
   },
-  "A2-AcolyteOfChayula": {
+  "A8-acolyteofchayula": {
     "name": "Grasp of the Void",
     "stats": [
       "Gain 1% of Damage as Extra Chaos Damage per 20 Unreserved Darkness"
     ]
   },
 
-  "A3-AcolyteOfChayula": {
-    "name": "A3",
+  "A6-acolyteofchayula": {
+    "name": "Lucid Dreaming",
     "stats": [
+      "Effect and Duration of Flames of Chayula on You is Double"
     ]
   },
-  "A4-AcolyteOfChayula": {
-    "name": "A4",
+  "A7-acolyteofchayula": {
+    "name": "Embrace the Darkness",
     "stats": [
+      "Remove all Spirit",
+      "Base Maximum Darkness is 100",
+      "For each Life or Energy Shield last to Damage reserve 1 Darkness instead if possible",
+      "Darkness Reservation lasts for 10 seconds",
+      "+5 to Maximum Darkness per Level"
     ]
   },
 
-  "A5-AcolyteOfChayula": {
+  "A5-acolyteofchayula": {
     "name": "Waking Dream",
     "stats": [
-      "Grants Skill: Into the Breach"
+      "Grants Skill: Into the Breach(spawn red/blue/purple flames that give 7% max hp leech/7% max mana leech/stacking 7% damage as chaos for 5s up to 10 stacks)"
     ]
   },
 
-  "A6-AcolyteOfChayula": {
-    "name": "A6",
+  "A9-acolyteofchayula": {
+    "name": "Inner Silence",
     "stats": [
+      "50% reduced Darkness Reservation Duration"
     ]
   },
 
-  "A7-AcolyteOfChayula": {
+  "A3-acolyteofchayula": {
     "name": "Chayula's Gift",
     "stats": [
       "10% to Maximum Chaos Resistance",
@@ -215,14 +235,14 @@
     ]
   },
 
-  "A8-AcolyteOfChayula": {
+  "A1-acolyteofchayula": {
     "name": "Ravenous Doubts",
     "stats": [
       "Mana Leech is instant"
     ]
   },
 
-  "A9-AcolyteOfChayula": {
+  "A2-acolyteofchayula": {
     "name": "Consuming Questions",
     "stats": [
       "You cannot Recharge Energy Shield",
@@ -230,840 +250,896 @@
     ]
   },
 
-  "A10-AcolyteOfChayula": {
+  "A10-acolyteofchayula": {
     "name": "A10",
     "stats": [
     ]
   },
 
-  "A11-AcolyteOfChayula": {
+  "A11-acolyteofchayula": {
     "name": "A11",
     "stats": [
     ]
   },
 
-  "A12-AcolyteOfChayula": {
+  "A12-acolyteofchayula": {
     "name": "A12",
     "stats": [
     ]
   },
 
-  "A13-AcolyteOfChayula": {
+  "A13-acolyteofchayula": {
     "name": "A13",
     "stats": [
     ]
   },
 
-  "A14-AcolyteOfChayula": {
+  "A14-acolyteofchayula": {
     "name": "A14",
     "stats": [
     ]
   },
 
-  "A15-AcolyteOfChayula": {
+  "A15-acolyteofchayula": {
     "name": "A15",
     "stats": [
     ]
   },
 
-  "A16-AcolyteOfChayula": {
+  "A16-acolyteofchayula": {
     "name": "A16",
     "stats": [
     ]
   },
 
-  "A17-AcolyteOfChayula": {
+  "A17-acolyteofchayula": {
     "name": "A17",
     "stats": [
     ]
   },
 
-  "A18-AcolyteOfChayula": {
+  "A18-acolyteofchayula": {
     "name": "A18",
     "stats": [
     ]
   },
-  "A1-Invoker": {
+  "A9-invoker": {
     "name": "...and Scatter Them to the Winds",
     "stats": [
-      "Grants Skill: Elemental Expression",
+      "Grants Skill: Elemental Expression(fire/lightning/ice aoe, chance based on str/dex/int)",
       "Trigger Elemental Expression on Melee Critical Hit"
     ]
   },
 
-  "A2-Invoker": {
-    "name": "A2",
+  "A1-invoker": {
+    "name": "Lead me through Grace",
     "stats": [
+      "Gain 1 Spirit for every 6 Energy Shield on equipped Body Armour",
+      "Gain 1 Spirit for every 15 Evasion Rating on equipped Body Armour",
+      "Cannot gain Spirit from Equipment"
     ]
   },
-  "A3-Invoker": {
-    "name": "A3",
+  "A2-invoker": {
+    "name": "..and Protect me from Harm",
     "stats": [
+      "Evasion Rating also grants Physical Damage reduction",
+      "40% less Evasion Rating"
     ]
   },
-  "A4-Invoker": {
+  "A5-invoker": {
     "name": "I am the Thunder...",
     "stats": [
       "Gain 10% of Damage as Extra Lightning Damage",
       "25% chance on Shocking Enemies to created Shocked Ground"
     ]
   },
-  "A5-Invoker": {
+  "A6-invoker": {
     "name": "...and I Shall Rage",
     "stats": [
-      "Grants Skill: Unbound Avatar"
+      "Grants Skill: Unbound Avatar(gain stacks by inflicting ele ailments with hits on enemies. at max stacks consume and augments Elemental prowess(??) for duration)"
     ]
   },
-  "A6-Invoker": {
+  "A4-invoker": {
     "name": "I am the Blizzard...",
     "stats": [
       "Gain 10% of Damage as Extra Cold Damage",
       "On Freezing Enemies create Chilled Ground"
     ]
   },
-  "A7-Invoker": {
+  "A3-invoker": {
     "name": "Faith is a Choice",
     "stats": [
       "Grants Skill: Meditate"
     ]
   },
-  "A8-Invoker": {
-    "name": "A8",
+  "A8-invoker": {
+    "name": "Sunder My Enemies...",
     "stats": [
+      "Critical Hits ignore non-negative Enemy Monster Elemental Resistances"
     ]
   },
-  "A9-Invoker": {
-    "name": "A9",
+  "A7-invoker": {
+    "name": "The soul Springs Eternal",
     "stats": [
+      "Meta Skills gain 35% more Energy"
     ]
   },
-  "A10-Invoker": {
+  "A10-invoker": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-Invoker": {
+  "A11-invoker": {
     "name": "",
     "stats": [
     ]
   },
-  "A12-Invoker": {
+  "A12-invoker": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-Invoker": {
+  "A13-invoker": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-Invoker": {
+  "A14-invoker": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-Invoker": {
+  "A15-invoker": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-Invoker": {
+  "A16-invoker": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A17-Invoker": {
+  "A17-invoker": {
     "name": "A17",
     "stats": [
     ]
   },
-  "A18-Invoker": {
+  "A18-invoker": {
     "name": "A18",
     "stats": [
     ]
   },
-  "A19-Invoker": {
+  "A19-invoker": {
     "name": "A19",
     "stats": [
     ]
   },
-  "A1-Deadeye": {
-    "name": "A1",
-    "stats": [
-    ]
-  },
-  "A2-Deadeye": {
-    "name": "Gathering Winds",
-    "stats": [
-      "Gain Tailwind on Skill use",
-      "Lose all Tailwind when Hit"
-    ]
-  },
-  "A3-Deadeye": {
-    "name": "Called Shots",
-    "stats": [
-      "You can apply an additional Mark"
-    ]
-  },
-  "A4-Deadeye": {
-    "name": "Endless Munitions",
-    "stats": [
-      "Skills fire an additional Projectile"
-    ]
-  },
-  "A5-Deadeye": {
-    "name": "Proj Proc Spec",
-    "stats": [
-      "spec one of these"
-    ]
-  },
-  "A6-Deadeye": {
-    "name": "Wind Ward",
-    "stats": [
-      "3% less damage taken per Tailwind"
-    ]
-  },
-  "A7-Deadeye": {
+  "A1-deadeye": {
     "name": "Avidity",
     "stats": [
-      "30% chance that if you gain Frenzy Charges, you instead gain up to your maximum number of Frenzy Charges"
+      "30% chance that if you would gain Frenzy Charges, you instead gain up to yout maximum number of Frenzy Charges"
     ]
   },
-  "A8-Deadeye": {
+  "A2-deadeye": {
     "name": "Thrilling Chase",
     "stats": [
       "Benefits from consuming Frenzy Charges for your skills have 50% chance to be doubled"
     ]
   },
-  "A9-Deadeye": {
+  "A3-deadeye": {
+    "name": "Eagle Eyes",
+    "stats": [
+      "You have no Accuracy Penalty at Distance"
+    ]
+  },
+  "A4-deadeye": {
+    "name": "Specialization",
+    "stats": [
+      "Choose 1"
+    ]
+  },
+  "A5-deadeye": {
+    "name": "Endless Munitions",
+    "stats": [
+      "Skills fire an additional Projectile"
+    ]
+  },
+  "A6-deadeye": {
+    "name": "Called Shots",
+    "stats": [
+      "You cam apply an additional Mark"
+    ]
+  },
+  "A7-deadeye": {
+    "name": "Gathering Winds",
+    "stats": [
+      "Gain Tailwind on Skill use (1%mov speed, 3% skill speed, 15%ER per stack. max 10 refresh on gain)",
+      "Lose all Tailwind when Hit"
+    ]
+  },
+  "A8-deadeye": {
+    "name": "Wind Ward",
+    "stats": [
+      "3% less Damage taken per Tailwind"
+    ]
+  },
+  "A9-deadeye": {
     "name": "A9",
     "stats": [
     ]
   },
-  "A10-Deadeye": {
+  "A10-deadeye": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-Deadeye": {
+  "A11-deadeye": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-Deadeye": {
-    "name": "Far Shot",
+  "A12-deadeye": {
+    "name": "A12",
     "stats": [
-      "Projectiles gain Damage as they travel farther, dealing up to 20% more damage with Hits to targets"
+      
     ]
   },
-  "A13-Deadeye": {
+  "A13-deadeye": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-Deadeye": {
+  "A14-deadeye": {
     "name": "Point Blank",
     "stats": [
       "Projectile Hits deal up to 20% more Damage to targets at the start of their movement, losing the damage bonus as the projectile travels farther"
     ]
   },
-  "A15-Deadeye": {
-    "name": "A15",
+  "A15-deadeye": {
+    "name": "Far Shot",
     "stats": [
+      "Projectiles gain Damage as they travel farther, dealing up to 20% more damage with Hits to targets"
     ]
   },
-  "A16-Deadeye": {
+  "A16-deadeye": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A17-Deadeye": {
+  "A17-deadeye": {
     "name": "A17",
     "stats": [
     ]
   },
-  "A18-Deadeye": {
+  "A18-deadeye": {
     "name": "A18",
     "stats": [
     ]
   },
-  "A1-Pathfinder": {
+  "A8-pathfinder": {
     "name": "Relentless Pursuit",
     "stats": [
-      "You gain immunity to slows from enemies"
+      "Your speed is unaffected by Slows"
     ]
   },
-  "A2-Pathfinder": {
+  "A7-pathfinder": {
     "name": "Running Assault",
     "stats": [
       "30% less Movement Speed Penalty when using Skills while moving"
     ]
   },
 
-  "A3-Pathfinder": {
+  "A6-pathfinder": {
     "name": "Traveller's Wisdom",
     "stats": [
       "Grants 5 passive Skill Points"
     ]
   },
 
-  "A4-Pathfinder": {
+  "A3-pathfinder": {
     "name": "Contagious Contamination",
     "stats": [
       "The most Damaging Poison on Enemies you Kill is Spread to other Enemies within 1.5 metres"
     ]
   },
-  "A5-Pathfinder": {
+  "A5-pathfinder": {
     "name": "Brew Concoction",
     "stats": [
-      "Select a concoction ig?"
+      "Concoction Specialisation (choose 1)"
     ]
   },
-  "A6-Pathfinder": {
+  "A4-pathfinder": {
     "name": "Overwhelming Toxicity",
     "stats": [
       "Double the number of Poisons you can inflict on Enemies",
       "35% less Poison Duration"
     ]
   },
-  "A7-Pathfinder": {
+  "A2-pathfinder": {
     "name": "Enduring Elixirs",
     "stats": [
       "Life Flask Effects are not removed when Unreserved Life is Filled",
       "Life Flask Effects do not queue"
     ]
   },
-  "A8-Pathfinder": {
-    "name": "A8",
+  "A1-pathfinder": {
+    "name": "Connected Chemistry",
     "stats": [
+      "50% more Flask Charges gained"
     ]
   },
-  "A9-Pathfinder": {
+  "A9-pathfinder": {
     "name": "A9",
     "stats": [
     ]
   },
-  "A10-Pathfinder": {
+  "A10-pathfinder": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-Pathfinder": {
+  "A11-pathfinder": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-Pathfinder": {
-    "name": "A12",
+  "A12-pathfinder": {
+    "name": "Poisonous Concoction (skill)",
     "stats": [
+      "Consume charges from Mana Flask to throw aoe chaos attack damage explosion. Poison inflicted by this has more effect."
     ]
   },
-  "A13-Pathfinder": {
-    "name": "A13",
+  "A13-pathfinder": {
+    "name": "Fulminating Concoction (skill)",
     "stats": [
+      "Consume charges from Mana Flask to throw aoe lightning attack damage explosion. Inflicts Lightning Exposure."
     ]
   },
-  "A14-Pathfinder": {
-    "name": "A14",
+  "A14-pathfinder": {
+    "name": "Shattering Concoction (skill)",
     "stats": [
+      "Consume charges from Mana Flask to throw aoe cold attack damage explosion. Inflicts Cold Exposure."
+    ]
+  
+  },
+  "A15-pathfinder": {
+    "name": "Explosive Concoction (skill)",
+    "stats": [
+      "Consume charges from Mana Flask to throw aoe fire attack damage explosion. Inflicts Fire Exposure."
     ]
   },
-  "A15-Pathfinder": {
-    "name": "Bleeding Concoction",
+  "A16-pathfinder": {
+    "name": "Bleeding Concoction (skill)",
     "stats": [
-      "Grants Skill: Bleeding Conctction"
+      "Consume charges from Mana Flask to throw aoe physical attack damage explosion. Bleeding inflicted by this has more effect. "
     ]
   },
-  "A16-Pathfinder": {
-    "name": "A16",
+  "A17-pathfinder": {
+    "name": "A17",
     "stats": [
+    
     ]
   },
-  "A17-Pathfinder": {
-    "name": "Fulminating Concoction",
-    "stats": [
-      "Grants Skill: Fulminating Concoction"
-    ]
-  },
-  "A18-Pathfinder": {
+  "A18-pathfinder": {
     "name": "A18",
     "stats": [
     ]
   },
-  "A19-Pathfinder": {
+  "A19-pathfinder": {
     "name": "A19",
     "stats": [
     ]
   },
-
-  "A1-Chronomancer": {
-    "name": "Ultimate Command",
+  
+  "A20-pathfinder": {
+    "name": "A20",
     "stats": [
-      "Grants Skill: Time Freeze"
     ]
   },
-  "A2-Chronomancer": {
+  "A1-chronomancer": {
+    "name": "Now and Again",
+    "stats": [
+      "Skills have 33% chance to no consume a Cooldown when used"
+    ]
+  },
+  "A2-chronomancer": {
     "name": "Unbound Encore",
     "stats": [
-      "Grants Skill: Time Snap"
+      "Grants Skill: Time Snap(resets cooldowns)"
     ]
   },
-  "A3-Chronomancer": {
+  "A3-chronomancer": {
+    "name": "Ultimate Command",
+    "stats": [
+      "Grants Skill: Time Freeze(stops time on enemies, diminishing return)"
+    ]
+  },
+  "A4-chronomancer": {
     "name": "Footprints in the Sand",
     "stats": [
-      "Grants Skill: Temporal Rift"
+      "Grants Skill: Temporal Rift(travels back in time to location, life, mana, es)"
     ]
   },
-  "A4-Chronomancer": {
-    "name": "A4",
+  "A5-chronomancer": {
+    "name": "Quicksand Hourglass",
     "stats": [
+      "Every 12 seconds gain 50% more Cast Speed for 4 seconds"
     ]
   },
-  "A5-Chronomancer": {
-    "name": "A5",
+  "A6-chronomancer": {
+    "name": "Apex of the Moment",
     "stats": [
+      "Enemies in your Presence are Slowed by 20%"
     ]
   },
-  "A6-Chronomancer": {
-    "name": "A6",
+  "A7-chronomancer": {
+    "name": "Circular Heartbeat",
     "stats": [
+      "30% of Damage taken Recouped as Life"
     ]
   },
-  "A7-Chronomancer": {
-    "name": "A7",
+  "A8-chronomancer": {
+    "name": "The Rapid River",
     "stats": [
+      "Recoup Effects instead occur over 4 seconds"
     ]
   },
-  "A8-Chronomancer": {
-    "name": "A8",
-    "stats": [
-    ]
-  },
-  "A9-Chronomancer": {
+  "A9-chronomancer": {
     "name": "A9",
     "stats": [
     ]
   },
-  "A10-Chronomancer": {
+  "A10-chronomancer": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-Chronomancer": {
+  "A11-chronomancer": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-Chronomancer": {
+  "A12-chronomancer": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-Chronomancer": {
+  "A13-chronomancer": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-Chronomancer": {
+  "A14-chronomancer": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-Chronomancer": {
+  "A15-chronomancer": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-Chronomancer": {
+  "A16-chronomancer": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A1-Stormweaver": {
-    "name": "A1",
+  "A1-stormweaver": {
+    "name": "Scouring Winds",
     "stats": [
+      "Exposure you inflic lowers the affected Resistance by an additional 20%"
     ]
   },
-  "A2-Stormweaver": {
-    "name": "A2",
+  "A2-stormweaver": {
+    "name": "Tempest Caller",
     "stats": [
+      "Grants Skill: Elemental Storm",
+      "Trigger Elemental Storm on Critical Hit with Spells(creates fire/cold/lightning storm (based on highest ele damage from triggered hit, non ele hits cant trigger))"
     ]
   },
-  "A3-Stormweaver": {
-    "name": "A3",
+  "A3-stormweaver": {
+    "name": "Rain Dancer",
     "stats": [
+      "Elemental Storm has 15% more Cooldown Recovery Rate"
     ]
   },
-  "A4-Stormweaver": {
+  "A4-stormweaver": {
+    "name": "Heavy Snows",
+    "stats": [
+      "Targets can be affected by two of your Chills at the same time",
+      "Your Chills can reduce Action Speed by up to a maximum of 35%",
+      "25% less Magnitude of Chill you inflict"
+    ]
+  },
+  "A5-stormweaver": {
+    "name": "Shaper of Winter",
+    "stats": [
+      "All Damage from Hits Contributes to Chill Magnitude"
+    ]
+  },
+  "A6-stormweaver": {
     "name": "Strike Twice",
     "stats": [
       "Targets can be affected by two of your Shocks at the same time",
       "50% less Shock Duration"
     ]
   },
-  "A5-Stormweaver": {
+  "A7-stormweaver": {
     "name": "Shaper of Storms",
     "stats": [
       "All Damage from Hits Contributes to Shock Chance"
     ]
   },
-  "A6-Stormweaver": {
-    "name": "A5",
+  "A8-stormweaver": {
+    "name": "Costant Gale",
     "stats": [
+      "You have Arcane Surge (10% more Cast Speed and 20% more Mana Regeneration Rate)"
     ]
   },
-  "A7-Stormweaver": {
-    "name": "A7",
+  "A10-stormweaver": {
+    "name": "Heart of the Storm",
     "stats": [
+      "40% of Elemental Damage taken Recouped as Energy Shield"
     ]
   },
-  "A8-Stormweaver": {
-    "name": "A8",
+  "A9-stormweaver": {
+    "name": "Force of Will",
     "stats": [
+      "1% increased Effect of Arcane Surge on you per 15% maximum Mana"
+
     ]
   },
-  "A9-Stormweaver": {
-    "name": "Tempest Caller",
-    "stats": [
-      "Grants Skill: Elemental Storm",
-      "Trigger Elemental Storm on Critical Hit with Spells"
-    ]
-  },
-  "A10-Stormweaver": {
-    "name": "A10",
-    "stats": [
-    ]
-  },
-  "A11-Stormweaver": {
+  "A11-stormweaver": {
     "name": "A11",
     "stats": [
+
     ]
   },
-  "A12-Stormweaver": {
+  "A12-stormweaver": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-Stormweaver": {
+  "A13-stormweaver": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-Stormweaver": {
+  "A14-stormweaver": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-Stormweaver": {
+  "A15-stormweaver": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-Stormweaver": {
+  "A16-stormweaver": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A17-Stormweaver": {
+  "A17-stormweaver": {
     "name": "A17",
     "stats": [
     ]
   },
-  "A18-Stormweaver": {
+  "A18-stormweaver": {
     "name": "A18",
     "stats": [
     ]
   },
-  "A19-Stormweaver": {
+  "A19-stormweaver": {
     "name": "A19",
     "stats": [
     ]
   },
-  "A20-Stormweaver": {
+  "A20-stormweaver": {
     "name": "A20",
     "stats": [
     ]
   },
-  "A1-Titan": {
-    "name": "A1",
+  "A1-titan": {
+    "name": "Stone Skin",
     "stats": [
+      "50% more Armour from Equipped Body Armour"
     ]
   },
-  "A2-Titan": {
-    "name": "A2",
+  "A2-titan": {
+    "name": "Earthbreaker",
     "stats": [
+      "20% chance for Slam Skills you use yourself to cause Aftershocks(same damage, area)"
     ]
   },
 
-  "A3-Titan": {
+  "A3-titan": {
     "name": "Earthbreaker",
     "stats": [
-      "20% chance for Slam Skills you use yourself to cause Aftershocks"
+      "Every second Slam Skill you use yourself is Ancestrally Boosted (20% more damage, area)"
     ]
   },
-  "A4-Titan": {
-    "name": "A4",
+  "A4-titan": {
+    "name": "Colossal Capacity",
     "stats": [
+      "Carry a Chest which adds 20 Inventory Slots"
     ]
   },
-  "A5-Titan": {
-    "name": "A5",
+  "A5-titan": {
+    "name": "Hulking Form",
     "stats": [
+      "50% increased effect of Small Passive Skills (sounds broken, no?)"
     ]
   },
-  "A6-Titan": {
+  "A6-titan": {
     "name": "Crushing Impacts",
     "stats": [
-      "Your Hits are Crushing Blows"
+      "Your Hits are Crushing Blows(cause Heavy Stun on enemies primed for stun)"
     ]
   },
-  "A7-Titan": {
-    "name": "A7",
-    "stats": [
-    ]
-  },
-  "A8-Titan": {
+  "A7-titan": {
     "name": "Surprising Strength",
     "stats": [
       "40% more Damage against Heavy Stunned Enemies"
     ]
   },
-  "A9-Titan": {
+  "A8-titan": {
+    "name": "Mysterious Lineage",
+    "stats": [
+      "15% more Maximum Life"
+    ]
+  },
+  "A9-titan": {
     "name": "A9",
     "stats": [
     ]
   },
-  "A10-Titan": {
+  "A10-titan": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-Titan": {
+  "A11-titan": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-Titan": {
+  "A12-titan": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-Titan": {
+  "A13-titan": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-Titan": {
+  "A14-titan": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-Titan": {
+  "A15-titan": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-Titan": {
+  "A16-titan": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A1-Warbringer": {
-    "name": "A1",
+  "A1-warbringer": {
+    "name": "Anvil's Weight",
     "stats": [
+      "Break Armou equal to 10% of Hit Damage dealt"
     ]
   },
-  "A2-Warbringer": {
-    "name": "A2",
+  "A2-warbringer": {
+    "name": "Imploding Impacts",
     "stats": [
+      "You can Break Enemy Armour to below 0"
     ]
   },
-  "A3-Warbringer": {
+  "A3-warbringer": {
     "name": "Jade Heritage",
     "stats": [
-      "Grants Skill: Encased in Jade",
+      "Grants Skill: Encased in Jade (chanell to eat all stacks to absorb all damage from hits up to number of stacks consumed while chanelling)",
       "Gain a stack of Jade every second"
     ]
   },
-  "A4-Warbringer": {
-    "name": "A4",
-    "stats": [
-    ]
-  },
-  "A5-Warbringer": {
+  "A4-warbringer": {
     "name": "Answered Call",
     "stats": [
-      "Grans Skill: Ancestral Spirits",
-      "Trigger Ancestral Spirits when yu Summon a Totem"
+      "Grants Skill: Ancestral Spirits (what the monkey do?)",
+      "Trigger Ancestral Spirits when you Summon a Totem"
     ]
   },
-  "A6-Warbringer": {
-    "name": "A6",
+  "A5-warbringer": {
+    "name": "Wooden Wall",
     "stats": [
+      "20% of Damage from Hits is taken from your nearest Totem's Life before you"
     ]
   },
-  "A7-Warbringer": {
+  "A6-warbringer": {
+    "name": "Renly's Training",
+    "stats": [
+      "Gain 40% Base Chance to Block from Equipped Shield instead of the Shield's value"
+    ]
+  },
+  "A7-warbringer": {
+    "name": "Turtle Charm",
+    "stats": [
+      "35% less Block Chance",
+      "Can Block Damage from all Hits while Shield is not Raised"
+    ]
+  },
+  "A8-warbringer": {
     "name": "Warcaller's Bellow",
     "stats": [
-      "Corpses in your Explode when you Warcry dealing 25% of their Life as Physical Damage"
+      "Corpses in your Presence Ezplode when you Warcry, dealing 25% of their Life as Physical Damage"
     ]
   },
-  "A8-Warbringer": {
+  "A9-warbringer": {
     "name": "Greatwolf's Howl",
     "stats": [
-      "Ignore Warcry Cooldown"
+      "Ignore Warcry Cooldowns"
     ]
   },
-  "A9-Warbringer": {
-    "name": "A9",
-    "stats": [
-    ]
-  },
-  "A10-Warbringer": {
+  "A10-warbringer": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-Warbringer": {
+  "A11-warbringer": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-Warbringer": {
+  "A12-warbringer": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-Warbringer": {
+  "A13-warbringer": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-Warbringer": {
+  "A14-warbringer": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-Warbringer": {
+  "A15-warbringer": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-Warbringer": {
+  "A16-warbringer": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A17-Warbringer": {
+  "A17-warbringer": {
     "name": "A17",
     "stats": [
     ]
   },
-  "A18-Warbringer": {
+  "A18-warbringer": {
     "name": "A18",
     "stats": [
     ]
   },
-  "A1-WitchHunter": {
-    "name": "A1",
+  "A1-witchhunter": {
+    "name": "Weapon Master",
     "stats": [
+      "20 Passive Skill Points become Weapon Set Skill Points"
     ]
   },
-  "A2-WitchHunter": {
-    "name": "Witchbane",
+  "A4-witchhunter": {
+    "name": "witchbane",
     "stats": [
       "Enemies have Maximum Concentration equal to 40% of their Maximum Life",
       "Break enemy Concentration on Hit equal to 100% of Damage Dealt",
       "Enemies regain 10% of Concentration every second if they haven't lost Concentration in the past 5 seconds"
     ]
   },
-  "A3-WitchHunter": {
-    "name": "A3",
+  "A2-witchhunter": {
+    "name": "Pitiless Killer",
     "stats": [
+      "Culling Strike(kill (Normal/Magic/Rare/Unique) enemies at (30,20,10,5)% of their life)"
     ]
   },
-  "A4-WitchHunter": {
-    "name": "A4",
+  "A3-witchhunter": {
+    "name": "Judge, Jury and Executioner",
     "stats": [
+      "Decimating Strike(Hits vs Full Life Enemies remove between 5%-30% of Life before the damage of hit)"
     ]
   },
-  "Zealous Inquisition": {
-    "name": "A5",
+  "A8-witchhunter": {
+    "name": "Zealous Inquisition",
     "stats": [
       "10% chance for Enemies you Kill to Explode, dealing 100% of their maximum life as Physical Damage",
       "Chance is doubled against Undead and Demons"
     ]
   },
-  "A6-WitchHunter": {
-    "name": "A6",
+  "A5-witchhunter": {
+    "name": "No Mercy",
     "stats": [
+      "Deal up to 30% more Damage to Enemies based on their missing Concentration"
     ]
   },
-  "A7-WitchHunter": {
-    "name": "A7",
+  "A7-witchhunter": {
+    "name": "Ceremonial Ablution",
     "stats": [
+      "50% increased effect of Sorcery Ward",
+      "Sorcery Ward recovers 50% faster"
     ]
   },
-  "A8-WitchHunter": {
+  "A6-witchhunter": {
     "name": "Obsessive Rituals",
     "stats": [
-      "Grants Skill: Sorcery Ward",
+      "Grants Skill: Sorcery Ward (barrier that takes elemental damage from hits until depletion, recharge some seconds after no ward damage taken or depletion)",
       "50% less Armour and Evasion Rating"
     ]
   },
-  "A9-WitchHunter": {
+  "A9-witchhunter": {
     "name": "A9",
     "stats": [
     ]
   },
-  "A10-WitchHunter": {
+  "A10-witchhunter": {
     "name": "A10",
     "stats": [
     ]
   },
-  "A11-WitchHunter": {
+  "A11-witchhunter": {
     "name": "A11",
     "stats": [
     ]
   },
-  "A12-WitchHunter": {
+  "A12-witchhunter": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-WitchHunter": {
+  "A13-witchhunter": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-WitchHunter": {
+  "A14-witchhunter": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-WitchHunter": {
+  "A15-witchhunter": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-WitchHunter": {
+  "A16-witchhunter": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A1-Infernalist": {
-    "name": "A1",
+  "A1-infernalist": {
+    "name": "Altered Flesh",
     "stats": [
+      "20% of Cold Damage taken as Fire Damage",
+      "20% of Lightning Damage taken as Fire Damage",
+      "20% of Physical Damage taken as Chaos Damage"
     ]
   },
-  "A2-Infernalist": {
+  "A10-infernalist": {
     "name": "Loyal Hellhound",
     "stats": [
-      "Grants Skill: Summon Infernal Hound",
+      "Grants Skill: Summon Infernal Hound(self revives, ignites nearby enemies)",
       "20% of Damage from Hits is taken from your Hellhound's Life before you"
     ]
   },
-  "A3-Infernalist": {
+  "A7-infernalist": {
     "name": "Pyromantic Pact",
     "stats": [
       "Maximum Mana is replaced by Maximum Infernal Flame",
@@ -1073,94 +1149,109 @@
       "10% of Infernal Flame lost per second if none was gained in the past 2 seconds"
     ]
   },
-  "A4-Infernalist": {
+  "A8-infernalist": {
     "name": "Bringer of Flame",
     "stats": [
-      "While not on Low Infernal Flame, all Damage from you and your Minions contributes to Ignite Chance and Magnitude"
+      "While not on Low Infernal Flame, all Damage from you and Allies in your Presence contributes to Ignite Chance and Magnitude"
     ]
   },
-  "A5-Infernalist": {
+  "A5-infernalist": {
     "name": "Demonic Possesion",
     "stats": [
-      "Grants Skill: Demon Form"
+      "Grants Skill: Demon Form(shapeshifts vastly boost power of spells, increasing self harm every second. reverts at 1hp or deactivation. )"
     ]
   },
-  "A6-Infernalist": {
+  "A3-infernalist": {
+    "name": "Beidat's Will",
+    "stats": [
+      "Reserves 25% of Life",
+      "+1 to Maximum Spirit per 25 Maximum Life"
+    ]
+  },
+  "A2-infernalist": {
+    "name": "Beidat's Gaze",
+    "stats": [
+      "Reserve 25% of Life",
+      "+1 to Maximum Mana per 6 Maximum Life"
+    ]
+  },
+  "A4-infernalist": {
+    "name": "Beidat's Hand",
+    "stats": [
+      "Reserves 25% of Life",
+      "+1 to Maximum Energy Shield per 8 Maximum Life"
+    ]
+  },
+  "A9-infernalist": {
+    "name": "Seething Body",
+    "stats": [
+      "While on High Infernal Flame, you and Allies in you Presence gain 20% of Damage as Fire Damage"
+    ]
+  },
+  "A6-infernalist": {
     "name": "A6",
     "stats": [
+      "Maximum 10 Demonflame (Demon Form self harm stacks, limits how much dps you take)"
     ]
   },
-  "A7-Infernalist": {
-    "name": "A7",
+  "A11-infernalist": {
+    "name": "Grinning Immolation",
     "stats": [
+      "Become Ignited when you deal a Critical Hit, taking 15% of your Life and Energy Shield as Fire Damage per second",
+      "30% more Critical Damage Bonus"
     ]
   },
-  "A8-Infernalist": {
-    "name": "A8",
-    "stats": [
-    ]
-  },
-  "A9-Infernalist": {
-    "name": "A9",
-    "stats": [
-    ]
-  },
-  "A10-Infernalist": {
-    "name": "A10",
-    "stats": [
-    ]
-  },
-  "A11-Infernalist": {
-    "name": "A11",
-    "stats": [
-    ]
-  },
-  "A12-Infernalist": {
+  "A12-infernalist": {
     "name": "A12",
     "stats": [
     ]
   },
-  "A13-Infernalist": {
+  "A13-infernalist": {
     "name": "A13",
     "stats": [
     ]
   },
-  "A14-Infernalist": {
+  "A14-infernalist": {
     "name": "A14",
     "stats": [
     ]
   },
-  "A15-Infernalist": {
+  "A15-infernalist": {
     "name": "A15",
     "stats": [
     ]
   },
-  "A16-Infernalist": {
+  "A16-infernalist": {
     "name": "A16",
     "stats": [
     ]
   },
-  "A17-Infernalist": {
+  "A17-infernalist": {
     "name": "A17",
     "stats": [
     ]
   },
-  "A18-Infernalist": {
+  "A18-infernalist": {
     "name": "A18",
     "stats": [
     ]
   },
-  "A19-Infernalist": {
+  "A19-infernalist": {
     "name": "A19",
     "stats": [
     ]
   },
-  "A20-Infernalist": {
+  "A20-infernalist": {
     "name": "A20",
     "stats": [
     ]
   },
 
+  "A21-infernalist": {
+    "name": "A21",
+    "stats": [
+    ]
+  },
 
   "K1": {
     "name": "Whispers of Doom",
@@ -3096,7 +3187,7 @@
     "stats": []
   },
   "N360": {
-    "name": "Titan's Determination",
+    "name": "titan's Determination",
     "stats": [
       "25% increased Stun Threshold",
       "Regenerate 1,5% of Life per second while moving"
@@ -4199,7 +4290,7 @@
     ]
   },
   "N566": {
-    "name": "Titan Bindings",
+    "name": "titan Bindings",
     "stats": [
       "Gain 15% of Maximum Life as Armour"
     ]

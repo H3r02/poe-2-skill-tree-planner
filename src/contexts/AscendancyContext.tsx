@@ -6,7 +6,7 @@ type AscendancyContextType = {
     ascendancy: string;
     setAscendancy: (ascendancy: string) => void;
     characterClass: string;
-    getAscendancies: () => string[];
+    ASCENDANCY_WITH_TEXT: Readonly<Record<string, string>>;
     getClasses: () => string[];
   };
   
@@ -14,32 +14,48 @@ type AscendancyContextType = {
 
   // Ascendancy to Class Mapping
   const ASCENDANCY_TO_CLASS: Record<string, string> = {
-    GemlingLegionnaire: 'Mercenary',
-    WitchHunter: 'Mercenary',
-    AcolyteOfChayula: 'Monk',
-    Invoker: 'Monk',
-    Deadeye: 'Ranger',
-    Pathfinder: 'Ranger',
-    Chronomancer: 'Sorceress',
-    Stormweaver: 'Sorceress',
-    Titan: 'Warrior',
-    Warbringer: 'Warrior',
-    BloodMage: 'Witch',
-    Infernalist: 'Witch'
+    gemlinglegionnaire: 'mercenary',
+    witchhunter: 'mercenary',
+    acolyteofchayula: 'monk',
+    invoker: 'monk',
+    deadeye: 'ranger',
+    pathfinder: 'ranger',
+    chronomancer: 'sorceress',
+    stormweaver: 'sorceress',
+    titan: 'warrior',
+    warbringer: 'warrior',
+    bloodmage: 'witch',
+    infernalist: 'witch'
+  };
+
+  const ASCENDANCY_WITH_TEXT: Readonly<Record<string, string>> = {
+    gemlinglegionnaire: 'Gemling Legionnaire',
+    witchhunter: 'Witch Hunter',
+    acolyteofchayula: 'Acolyte Of Chayula',
+    invoker: 'Invoker',
+    deadeye: 'Deadeye',
+    pathfinder: 'Pathfinder',
+    chronomancer: 'Chronomancer',
+    stormweaver: 'Stormweaver',
+    titan: 'Titan',
+    warbringer: 'Warbringer',
+    bloodmage: 'Bloodmage',
+    infernalist: 'Infernalist'
   };
   
   export const AscendancyProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const {setSelectedNodes, selectedNodes} = useNodes();
     const {allNodes} = useAllNodes();
 
-    const [ascendancy, setAscendancyState] = useState<string>("GemlingLegionnaire");
+    const [ascendancy, setAscendancyState] = useState<string>("gemlinglegionnaire");
     const [characterClass, setCharacterClass] = useState<string>("mercenary");
+
   
     const setAscendancy = (newAscendancy: string) => {
         if(newAscendancy == ascendancy) return;
 
 
-        const newClass = ASCENDANCY_TO_CLASS[newAscendancy].toLowerCase();
+        const newClass = ASCENDANCY_TO_CLASS[newAscendancy];
         const newSelectedNodes = Array.from(selectedNodes).filter((nodeId) => {
           return (nodeId.at(0) != "A");
         }).map((nodeId) => {
@@ -57,13 +73,10 @@ type AscendancyContextType = {
 
     };
 
-
-    const getAscendancies = () => Object.keys(ASCENDANCY_TO_CLASS);
-
     const getClasses = () => Array.from(new Set(Object.values(ASCENDANCY_TO_CLASS)));
   
     return (
-      <AscendancyContext.Provider value={{ ascendancy, setAscendancy, characterClass ,getAscendancies, getClasses }}>
+      <AscendancyContext.Provider value={{ ascendancy, setAscendancy, characterClass ,ASCENDANCY_WITH_TEXT, getClasses }}>
         {children}
       </AscendancyContext.Provider>
     );

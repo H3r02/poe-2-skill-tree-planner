@@ -1,18 +1,14 @@
 import React, { LegacyRef, Ref, useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
-import Node from './Node';
-import { NodeData } from '../../types';
-import { useNodes } from '@/contexts/NodesContext';
-import { TransformWrapper, TransformComponent, ReactZoomPanPinchContentRef } from 'react-zoom-pan-pinch';
+import { TransformWrapper, TransformComponent, ReactZoomPanPinchContentRef, useTransformContext } from 'react-zoom-pan-pinch';
 import { useAscendancy } from '@/contexts/AscendancyContext';
-import { useAllNodes } from '@/contexts/AllNodesContext';
 import NodeList from './NodeList';
 
 interface SkillTreeProps {
-  wrapperRef: Ref<ReactZoomPanPinchContentRef> | null;
 }
 
-const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
+const SkillTree: React.FC<SkillTreeProps> = () => {
+  const { transformState} = useTransformContext(); 
   const { ascendancy} = useAscendancy();
 
   const [prevAscImg, setPrevAscImg] = useState<string>("");
@@ -31,6 +27,8 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
   const scaledWidth = imageWidth * scale;
   const scaledHeight = imageHeight * scale;
 
+  const scaledMidWidth = scaledWidth * 0.16;
+
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setWindowWidth(window.innerWidth);
@@ -48,9 +46,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
   }, []);
 
   useEffect(() => {
-    const prev = currAscImg;
-    setCurrAscImg(`/asc2/${ascendancy}.webp`);
-
+    setCurrAscImg(`/ascendancies/${ascendancy}.webp`);
   }, [ascendancy, setPrevAscImg, setCurrAscImg]);
   
   const [isGrabbing, setIsGrabbing] = useState(false);
@@ -64,6 +60,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
       const rect = divRef.current.getBoundingClientRect();
       const x = event.clientX - rect.left;
       const y = event.clientY - rect.top;
+      console.log(x/scaledWidth/transformState.scale, y/scaledHeight/transformState.scale);
     }
   };
 
@@ -83,17 +80,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
 
       }}>
 
-    <TransformWrapper
-    ref={wrapperRef}
-    initialScale={2}
-    minScale={0.8}
-    maxScale={10}
-    centerOnInit={true}
-    doubleClick={{disabled: true}}
-    panning={{velocityDisabled: true}}
-    smooth={true}
-    wheel={{step:0.3, smoothStep: 0.005}}
-    >
+
       <TransformComponent>
 
       <div
@@ -145,7 +132,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
                 top: '50.4%',
                 left: '50.15%',
                 transform: 'translate(-50%, -50%)',
-                width:"100px", 
+                width:`${scaledMidWidth}px`, 
                 aspectRatio: '1',
                 borderRadius: '50%', // Makes it a circle
                 overflow: 'hidden', // Ensures the image is clipped to the circle
@@ -158,7 +145,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
                 
                 priority={true}
                 quality={30}
-                sizes="width: 800px"
+                sizes="width: 30vw"
 
                 className="transition-opacity duration-500 opacity-100"
                 style={{ objectFit: 'cover' }}
@@ -173,7 +160,7 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
                   top: '50.4%',
                   left: '50.15%',
                   transform: 'translate(-50%, -50%)',
-                  width:"100px", 
+                  width:`${scaledMidWidth}px`, 
                   aspectRatio: '1',
                   borderRadius: '50%', // Makes it a circle
                   overflow: 'hidden', // Ensures the image is clipped to the circle
@@ -205,7 +192,6 @@ const SkillTree: React.FC<SkillTreeProps> = ({wrapperRef}) => {
       </div>
 
       </TransformComponent>
-      </TransformWrapper>
     </div>
 
   );
