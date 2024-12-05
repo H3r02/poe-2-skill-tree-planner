@@ -44,12 +44,10 @@ const Saves: React.FC<SavesProps> = ({ }) => {
         if(treeSaves.has(saveName)){
           const newSaveName = `${saveName}#${(Math.floor(Math.random() * (10000 - 1000) + 1000).toString())}`
           addSave(newSaveName, saveAscendancy, set);
-          setCurrentSave(newSaveName);
           changeToSave(newSaveName);
           permSave();
         }else {
           addSave(saveName, saveAscendancy, set);
-          setCurrentSave(saveName);
           changeToSave(saveName);
           permSave();
         }
@@ -63,47 +61,34 @@ const Saves: React.FC<SavesProps> = ({ }) => {
 
 
     } else {
-      setCurrentSave(event.target.value);
       changeToSave(event.target.value);
-
     };
   }
 
-  useEffect(() => {
-    if (currentSave) {
-      const updatedSaves = new Map(treeSaves);
-      const save = updatedSaves.get(currentSave)!.tree;
-      updatedSaves.set(currentSave, { tree: save, ascendancy: ascendancy });
-      setTreeSaves(updatedSaves);
-    }
-
-  }
-    , [ascendancy]);
 
     useEffect(() => {
+      console.log("WHOO");
       if(treeSaves.size > 0 && !currentSave){
         setCurrentSave(treeSaves.keys().next().value!);
       }
     }
       , [treeSaves]);
 
-  useEffect(() => {
-    if (currentSave) {
-      const updatedSaves = new Map(treeSaves);
-      updatedSaves.set(currentSave, { tree: selectedNodes, ascendancy: ascendancy });
-      setTreeSaves(updatedSaves);
-    }
-
-  }, [selectedNodes]);
 
   const changeToSave = (newSaveName: string) => {
     const newSave = treeSaves.get(newSaveName);
+    if (!newSave) return;  
+    const updatedSaves = new Map(treeSaves);
+    updatedSaves.set(currentSave, { tree: selectedNodes, ascendancy: ascendancy });
+    setTreeSaves(updatedSaves);
 
-    if (!newSave) return;
-    setSelectedNodes(newSave.tree);
     setAscendancy(newSave.ascendancy);
+    setSelectedNodes(newSave.tree);
+    setCurrentSave(newSaveName);
   }
+
   const handleDelete = () => {
+    setCurrentSave("");
     removeSave(currentSave);
     setIsOpenDelete(false);
   }
@@ -119,12 +104,19 @@ const Saves: React.FC<SavesProps> = ({ }) => {
     setCopyCurrentTree(false);
   }
 
+  const handlePermSave = () => {
+    const updatedSaves = new Map(treeSaves);
+    updatedSaves.set(currentSave, { tree: selectedNodes, ascendancy: ascendancy });
+    setTreeSaves(updatedSaves);
+    permSave();
+  }
+
 
   return (
     <div className="flex flex-row items-center justify-center space-x-0">
       <div className="flex flex-col flex-col-reverse items-center gap-y-1 w-[200px] custom-s:flex-row custom-s:w-auto">
       <button
-        onClick={permSave}
+        onClick={handlePermSave}
         className=" bg-gray-500 text-white focus:outline-none w-[140px] hover:bg-gray-600 mr-2 "
       >
         persistent save
@@ -221,4 +213,4 @@ const Saves: React.FC<SavesProps> = ({ }) => {
 }
 
 
-export default Saves;
+export default React.memo(Saves);
