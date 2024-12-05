@@ -66,10 +66,12 @@ const Node: React.FC<NodeProps> = ({ node }) => {
           ${isSelected ? "bg-yellow-600 opacity-70" : ""}
 
           ${node.type === 'small' ? 'w-[2px] custom-m:w-[4px]' : 'custom-m:w-[7px] w-[4px]'}
-          ${node.stats.length === 0 ? 'bg-black opacity-80' : ''}
+          ${!isHovered && node.stats.length === 0 ? 'bg-black opacity-80' : ''}
 
           ${node.ascendancy && !node.id.includes(ascendancy) ? "hidden" : ""}
           ${!isVisible ? 'bg-black opacity-80' : ''}
+          
+          
           
         `}
         style={{
