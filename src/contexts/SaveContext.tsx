@@ -91,15 +91,6 @@ export const SaveProvider: React.FC<{ children: React.ReactNode }> = ({ children
     loadSave();
   }, []);
 
-  useEffect(() => {
-    if(!baseSave){
-      const val =treeSaves.keys().next().value!;
-
-      setBaseSave(val);
-    }
-  }, [treeSaves])
-
-
   // on every save update, post them to local storage
   const permSave = () => {
     async function saveState() {

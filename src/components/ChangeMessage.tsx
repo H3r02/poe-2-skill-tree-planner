@@ -30,7 +30,7 @@ const ChangeMessage: React.FC<ChangeMessageProps> = () => {
         >
           <div className="flex justify-between items-center  ">
           <h1 className="text-2xl text-center">andrej2431 </h1>
-            <h1 className="text-2xl w-[80%] text-center">Poe Tree Planner V2 - Ascendancies + tree import/export </h1>
+            <h1 className="text-2xl w-[80%] text-center">Poe Tree Planner V2 - multiple trees fixed hopefully </h1>
             <button
               onClick={closeMessage}
               className="text-white font-bold ml-4"
@@ -42,7 +42,7 @@ const ChangeMessage: React.FC<ChangeMessageProps> = () => {
           <div className="max-w-4xl mx-auto p-6   flex-col gap-y-10  overflow-y-auto  h-[80vh]">
 
             <div className="mb-8 shadow-xl bg-blue-500 rounded-lg p-5 text-l">
-              <h2 className="text-2xl font-bold  mb-4">Importing/Exporting trees added</h2>
+              <h2 className="text-2xl font-bold  mb-4">Multiple trees and switching fixed</h2>
               <p className="">
                 CTRL+F focuses search bar, no need to click it to search
               </p>

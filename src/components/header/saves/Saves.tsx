@@ -67,9 +67,10 @@ const Saves: React.FC<SavesProps> = ({ }) => {
 
 
     useEffect(() => {
-      console.log("WHOO");
+      
       if(treeSaves.size > 0 && !currentSave){
         setCurrentSave(treeSaves.keys().next().value!);
+        setSelectedNodes(new Set(treeSaves.get(treeSaves.keys().next().value!)?.tree))
       }
     }
       , [treeSaves]);
@@ -82,9 +83,10 @@ const Saves: React.FC<SavesProps> = ({ }) => {
     updatedSaves.set(currentSave, { tree: selectedNodes, ascendancy: ascendancy });
     setTreeSaves(updatedSaves);
 
-    setAscendancy(newSave.ascendancy);
+
     setSelectedNodes(newSave.tree);
     setCurrentSave(newSaveName);
+    setAscendancy(newSave.ascendancy);
   }
 
   const handleDelete = () => {
