@@ -102,12 +102,16 @@ export default function Header({ }: LeftSidebarProps) {
           />
           Hide attributes
         </label>
+        <p>{`${selectedNodes.size}/122 skills used`}</p>
         <button
             onClick={resetPassives}
-            className=" bg-gray-500 text-white focus:outline-none w-[100px] hover:bg-gray-600"
+            className=" bg-gray-500 text-white focus:outline-none w-[120px] hover:bg-gray-600"
           >
              Reset Passives
-          </button>
+        </button>
+        
+        
+
         <label className="flex items-center">
                   <a 
     href="https://github.com/andrej2431/poe-2-skill-tree-planner" 
