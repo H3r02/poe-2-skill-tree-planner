@@ -1881,7 +1881,7 @@
   },
   "N102": {
     "name": "Gravedigger",
-    "stats": ["Mminions Revive 25% faster", "You gain 3% Life when one of your Minions is Revived"]
+    "stats": ["Minions Revive 25% faster", "You gain 3% Life when one of your Minions is Revived"]
   },
   "N103": {
     "name": "N103",
