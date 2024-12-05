@@ -63,7 +63,7 @@ const Node: React.FC<NodeProps> = ({ node }) => {
           rounded-full
           
           ${isHighlighted ? "border border-red-600" : ""}
-          ${isSelected ? "bg-yellow-600 opacity-70" : ""}
+          ${isSelected ? node.type=='small' ? "bg-white opacity-70" : "bg-yellow-600 opacity-70" : ""}
 
           ${node.type === 'small' ? 'w-[2px] custom-m:w-[4px]' : 'custom-m:w-[7px] w-[4px]'}
           ${!isHovered && node.stats.length === 0 ? 'bg-black opacity-80' : ''}
